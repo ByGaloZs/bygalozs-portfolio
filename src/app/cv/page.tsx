@@ -14,7 +14,6 @@ import {
   UserRound,
 } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
 
 import { CvSection } from "@/components/cv/cv-section";
 import { ExperienceTimeline } from "@/components/cv/experience-timeline";
@@ -48,11 +47,11 @@ export default function CvPage() {
         <div className="flex items-start gap-4">
           <Image
             alt="Mario Padilla Franco"
-            className="size-24 shrink-0 rounded-full border border-slate-200 object-cover object-[center_30%] sm:size-28"
-            height={112}
+            className="size-28 shrink-0 rounded-full border border-slate-200 object-cover object-[center_30%] sm:size-32"
+            height={128}
             priority
             src="/images/profile.png"
-            width={112}
+            width={128}
           />
           <div>
             <h1 className="text-4xl font-bold tracking-tight text-slate-950">{profile.name}</h1>
@@ -64,27 +63,27 @@ export default function CvPage() {
                   {profile.location}
                 </span>
               ) : null}
-              <a className="inline-flex items-center gap-1.5 text-[#0D6EFD] hover:underline" href="https://github.com/ByGaloZs" rel="noreferrer" target="_blank">
-                <GitFork aria-hidden="true" className="size-4 text-slate-900" />
-                GitHub
-              </a>
-              <a className="inline-flex items-center gap-1.5 text-[#0D6EFD] hover:underline" href="https://www.linkedin.com/in/mario-padilla-7b4988230" rel="noreferrer" target="_blank">
-                <LinkIcon aria-hidden="true" className="size-4" />
-                LinkedIn
-              </a>
-              <a className="inline-flex items-center gap-1.5 text-[#0D6EFD] hover:underline" href="mailto:mariopadillafranco97@gmail.com">
-                <Mail aria-hidden="true" className="size-4" />
-                Email
-              </a>
+               {profile.githubUrl ? <a className="inline-flex items-center gap-1.5 text-[#0D6EFD] hover:underline" href={profile.githubUrl} rel="noreferrer" target="_blank">
+                 <GitFork aria-hidden="true" className="size-4 text-slate-900" />
+                 GitHub
+               </a> : null}
+               {profile.linkedInUrl ? <a className="inline-flex items-center gap-1.5 text-[#0D6EFD] hover:underline" href={profile.linkedInUrl} rel="noreferrer" target="_blank">
+                 <LinkIcon aria-hidden="true" className="size-4" />
+                 LinkedIn
+               </a> : null}
+               {profile.email ? <a className="inline-flex items-center gap-1.5 text-[#0D6EFD] hover:underline" href={`mailto:${profile.email}`}>
+                 <Mail aria-hidden="true" className="size-4" />
+                 Email
+               </a> : null}
             </div>
           </div>
         </div>
         <div className="flex shrink-0 items-start gap-4 md:justify-end">
           <ThemeToggle />
-          <button className="inline-flex items-center gap-2 rounded-lg bg-[#0D6EFD] px-4 py-2.5 text-sm font-medium text-white shadow-sm" type="button">
+          <a className="inline-flex items-center gap-2 rounded-lg bg-[#0D6EFD] px-4 py-2.5 text-sm font-medium text-white shadow-sm" download href="/cv/mario-padilla-franco-cv.pdf">
             <Download aria-hidden="true" className="size-4" />
             Download CV
-          </button>
+          </a>
         </div>
       </header>
 
@@ -103,24 +102,21 @@ export default function CvPage() {
             {profile.professionalSummary.map((paragraph) => (
               <p key={paragraph}>{paragraph}</p>
             ))}
-            <Link className="mt-3 inline-block text-xs font-medium text-[#0D6EFD] hover:underline" href="/experience">
-              View more →
-            </Link>
           </div>
           </CvSection>
 
           <div className="space-y-8 lg:pt-8">
-            <CvSection icon={BriefcaseBusiness} id="experience" title="Experience" className="scroll-mt-6">
+            <CvSection icon={BriefcaseBusiness} id="experience" title="Experience" className="scroll-mt-6" href="/experience">
               <ExperienceTimeline experiences={experiences} />
             </CvSection>
 
-            <CvSection icon={Code2} id="skills" title="Technical Skills" className="scroll-mt-6">
+            <CvSection icon={Code2} id="skills" title="Technical Skills" className="scroll-mt-6" href="/skills">
               <div className="grid gap-y-5 sm:grid-cols-2 xl:grid-cols-4 xl:divide-x xl:divide-slate-200">
                 {skillGroups.map((group) => (
                   <div className="xl:px-4 xl:first:pl-0 xl:last:pr-0" key={group.category}>
                     <h3 className="text-sm font-bold text-slate-800">{group.category}</h3>
                     <div className="mt-3 flex flex-wrap gap-2">
-                      {group.skills.map((skill) => (
+                    {(group.websiteSkills ?? group.skills).map((skill) => (
                         <SkillTag key={skill} label={skill} />
                       ))}
                     </div>
@@ -131,8 +127,8 @@ export default function CvPage() {
           </div>
         </div>
 
-        <CvSection icon={Box} id="projects" title="Selected Projects" className="order-2 scroll-mt-6 lg:order-none lg:col-span-2 lg:row-start-2">
-          <SelectedProjects projects={projects} />
+        <CvSection icon={Box} id="projects" title="Selected Projects" className="order-2 scroll-mt-6 lg:order-none lg:col-span-2 lg:row-start-2" href="/projects">
+          <SelectedProjects projects={projects.filter((project) => project.featured)} />
         </CvSection>
 
         <aside className="order-3 space-y-7 border-t border-slate-200 pt-7 lg:order-none lg:col-start-2 lg:row-start-1 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
@@ -163,7 +159,7 @@ export default function CvPage() {
             </div>
           </section>
 
-          <CvSection icon={GraduationCap} id="education" title="Education" className="scroll-mt-6 border-t-0 pt-0">
+          <CvSection icon={GraduationCap} id="education" title="Education" className="scroll-mt-6 border-t-0 pt-0" href="/education">
             <div className="space-y-6">
               {education.map((entry) => (
                 <article className="grid grid-cols-[16px_minmax(0,1fr)] gap-3" key={entry.slug}>
@@ -185,7 +181,7 @@ export default function CvPage() {
             </div>
           </CvSection>
 
-          <CvSection icon={BadgeCheck} id="certifications" title="Certifications" className="scroll-mt-6">
+          <CvSection icon={BadgeCheck} id="certifications" title="Certifications" className="scroll-mt-6" href="/certifications">
             <div className="space-y-5">
               {certifications.map((certification) => (
                 <article className="grid grid-cols-[8px_minmax(0,1fr)] gap-3" key={certification.name}>
@@ -199,7 +195,7 @@ export default function CvPage() {
             </div>
           </CvSection>
 
-          <CvSection icon={Globe2} id="languages" title="Languages" className="scroll-mt-6">
+          <CvSection icon={Globe2} id="languages" title="Languages" className="scroll-mt-6" href="/languages">
             <div className="space-y-4">
               {languages.map((language) => (
                 <div key={language.name}>

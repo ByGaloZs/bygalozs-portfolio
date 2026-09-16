@@ -47,6 +47,33 @@ body:has(.cv-page) .site-header {
   display: none;
 }
 
+body:has(.print-cv) .site-header {
+  display: none;
+}
+
+@page {
+  size: A4;
+  margin: 10mm;
+}
+
+@media print {
+  body {
+    background: #ffffff;
+  }
+
+  .print-cv {
+    max-width: none;
+  }
+
+  .print-page {
+    break-after: page;
+  }
+
+  .print-page-two {
+    break-after: auto;
+  }
+}
+
 /* Keep the layout intact while mapping the existing neutral and blue tokens to the dark palette. */
 .dark .bg-white {
   background-color: #18181b !important;

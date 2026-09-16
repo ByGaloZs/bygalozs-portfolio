@@ -4,6 +4,7 @@ export type DetailContent = {
   achievements?: string[];
   technologies?: string[];
   projects?: string[];
+  pdfHighlights?: string[];
 };
 
 export type Experience = {
@@ -22,6 +23,7 @@ export type Project = {
   name: string;
   summary: string[];
   technologies?: string[];
+  featured?: boolean;
   details?: DetailContent;
 };
 
@@ -44,11 +46,13 @@ export type Certification = {
   issuer?: string;
   date?: string;
   credentialUrl?: string;
+  details?: string[];
 };
 
 export type SkillGroup = {
   category: string;
   skills: string[];
+  websiteSkills?: string[];
 };
 
 export type Language = {
@@ -62,5 +66,9 @@ export type Profile = {
   location?: string;
   availability?: string;
   website: string;
+  email?: string;
+  githubUrl?: string;
+  linkedInUrl?: string;
   professionalSummary: string[];
+  pdfSummary?: string;
 };

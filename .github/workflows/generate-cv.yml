@@ -1,0 +1,31 @@
+name: Generate CV PDF
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - content/portfolio.json
+      - src/app/cv/print/page.tsx
+      - src/app/globals.css
+      - src/data/content.ts
+      - scripts/generate-cv.mjs
+      - package.json
+      - package-lock.json
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run generate:cv
+      - run: git add public/cv/mario-padilla-franco-cv.pdf
+      - run: git diff --cached --quiet || git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "chore: regenerate CV PDF"
+      - run: git push

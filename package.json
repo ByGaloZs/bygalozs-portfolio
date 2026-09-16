@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "generate:cv": "npm run build && node scripts/generate-cv.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.46.0",

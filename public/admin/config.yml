@@ -1,0 +1,172 @@
+backend:
+  name: github
+  repo: ByGaloZs/bygalozs-portfolio
+  branch: master
+  base_url: https://bygalozs.dev
+  auth_endpoint: api/cms/auth
+
+site_url: https://bygalozs.dev
+display_url: https://bygalozs.dev
+publish_mode: simple
+
+collections:
+  - name: portfolio
+    label: Portfolio Content
+    files:
+      - name: portfolio
+        label: Portfolio Content
+        file: content/portfolio.json
+        format: json
+        fields:
+          - label: Profile
+            name: profile
+            widget: object
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Headline, name: headline, widget: string }
+              - { label: Location, name: location, widget: string }
+              - { label: Availability, name: availability, widget: string, required: false }
+              - { label: Website, name: website, widget: string }
+              - { label: Email, name: email, widget: string }
+              - { label: GitHub URL, name: githubUrl, widget: string }
+              - { label: LinkedIn URL, name: linkedInUrl, widget: string }
+              - label: Web Summary
+                name: professionalSummary
+                widget: list
+                field: { label: Paragraph, name: paragraph, widget: text }
+              - { label: PDF Summary, name: pdfSummary, widget: text }
+          - label: Experiences
+            name: experiences
+            widget: list
+            collapsed: true
+            fields:
+              - { label: Slug, name: slug, widget: string, hint: "URL identifier. Do not change after publishing." }
+              - { label: Company, name: company, widget: string }
+              - { label: Role, name: role, widget: string }
+              - { label: Location, name: location, widget: string, required: false }
+              - { label: Start Date, name: startDate, widget: string }
+              - { label: End Date, name: endDate, widget: string, required: false }
+              - label: Web Summary
+                name: summary
+                widget: list
+                field: { label: Point, name: point, widget: text }
+              - label: Full Details
+                name: details
+                widget: object
+                fields:
+                  - { label: Overview, name: overview, widget: text, required: false }
+                  - label: Responsibilities
+                    name: responsibilities
+                    widget: list
+                    required: false
+                    field: { label: Responsibility, name: responsibility, widget: text }
+                  - label: Achievements
+                    name: achievements
+                    widget: list
+                    required: false
+                    field: { label: Achievement, name: achievement, widget: text }
+                  - label: Technologies
+                    name: technologies
+                    widget: list
+                    required: false
+                    field: { label: Technology, name: technology, widget: string }
+                  - label: Related Projects or Customers
+                    name: projects
+                    widget: list
+                    required: false
+                    field: { label: Item, name: item, widget: string }
+                  - label: PDF Highlights
+                    name: pdfHighlights
+                    widget: list
+                    required: false
+                    field: { label: Highlight, name: highlight, widget: text }
+          - label: Projects
+            name: projects
+            widget: list
+            collapsed: true
+            fields:
+              - { label: Slug, name: slug, widget: string, hint: "URL identifier. Do not change after publishing." }
+              - { label: Name, name: name, widget: string }
+              - { label: Featured on Web CV, name: featured, widget: boolean, default: false, required: false }
+              - label: Technologies
+                name: technologies
+                widget: list
+                field: { label: Technology, name: technology, widget: string }
+              - label: Web Summary
+                name: summary
+                widget: list
+                field: { label: Point, name: point, widget: text }
+              - label: Full Details
+                name: details
+                widget: object
+                fields:
+                  - { label: Overview, name: overview, widget: text, required: false }
+                  - label: Achievements
+                    name: achievements
+                    widget: list
+                    required: false
+                    field: { label: Achievement, name: achievement, widget: text }
+                  - label: PDF Highlights
+                    name: pdfHighlights
+                    widget: list
+                    required: false
+                    field: { label: Highlight, name: highlight, widget: text }
+          - label: Education
+            name: education
+            widget: list
+            collapsed: true
+            fields:
+              - { label: Slug, name: slug, widget: string }
+              - { label: Institution, name: institution, widget: string }
+              - { label: Qualification, name: qualification, widget: string }
+              - { label: Start Date, name: startDate, widget: string }
+              - { label: End Date, name: endDate, widget: string, required: false }
+              - label: Summary
+                name: summary
+                widget: list
+                field: { label: Point, name: point, widget: text }
+              - label: Details
+                name: details
+                widget: object
+                required: false
+                fields:
+                  - { label: Overview, name: overview, widget: text, required: false }
+                  - label: Coursework
+                    name: coursework
+                    widget: list
+                    required: false
+                    field: { label: Course, name: course, widget: string }
+          - label: Certifications
+            name: certifications
+            widget: list
+            collapsed: true
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Issuer, name: issuer, widget: string, required: false }
+              - { label: Date, name: date, widget: string, required: false }
+              - label: Details
+                name: details
+                widget: list
+                required: false
+                field: { label: Detail, name: detail, widget: string }
+          - label: Skill Groups
+            name: skillGroups
+            widget: list
+            collapsed: true
+            fields:
+              - { label: Category, name: category, widget: string }
+              - label: Full Skills
+                name: skills
+                widget: list
+                field: { label: Skill, name: skill, widget: string }
+              - label: Web Skills
+                name: websiteSkills
+                widget: list
+                required: false
+                field: { label: Skill, name: skill, widget: string }
+          - label: Languages
+            name: languages
+            widget: list
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Proficiency, name: proficiency, widget: string, required: false }

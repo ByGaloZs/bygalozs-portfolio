@@ -1,6 +1,3 @@
-import type { Language } from "@/types/portfolio";
+import { portfolio } from "@/data/content";
 
-export const languages: Language[] = [
-  { name: "Spanish", proficiency: "Native" },
-  { name: "English", proficiency: "C1 Advanced - EF SET certified" },
-];
+export const languages = portfolio.languages;
