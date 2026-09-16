@@ -5,10 +5,12 @@ import { resolve } from "node:path";
 const root = process.cwd();
 const port = String(3200 + (process.pid % 1000));
 const output = resolve(root, "public/cv/mario-padilla-franco-cv.pdf");
-const chrome = process.env.CHROME_BIN || "/usr/bin/google-chrome";
+const chrome = [process.env.CHROME_BIN, "/usr/bin/google-chrome", "/usr/bin/google-chrome-stable", "/usr/bin/chromium", "/usr/bin/chromium-browser"]
+  .filter(Boolean)
+  .find((candidate) => existsSync(candidate));
 const nextBinary = resolve(root, "node_modules/next/dist/bin/next");
 
-if (!existsSync(chrome)) {
+if (!chrome) {
   throw new Error("Google Chrome was not found. Set CHROME_BIN to the path of a Chrome or Chromium executable.");
 }
 
