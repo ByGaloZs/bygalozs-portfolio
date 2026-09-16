@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/page": "/",
+  "/education/page": "/education",
+  "/certifications/page": "/certifications",
+  "/experience/page": "/experience",
+  "/experience/[slug]/page": "/experience/[slug]",
+  "/projects/page": "/projects",
+  "/projects/[slug]/page": "/projects/[slug]",
+  "/cv/page": "/cv"
+}
