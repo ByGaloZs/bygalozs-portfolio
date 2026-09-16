@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import type { LucideIcon } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 
 type CvSectionProps = {
@@ -22,8 +23,8 @@ export function CvSection({ id, title, icon: Icon, children, className = "", hre
           {title}
         </h2>
         {href ? (
-          <Link className="shrink-0 text-sm font-medium text-[#0D6EFD] hover:underline" href={href}>
-            View complete
+          <Link className="inline-flex shrink-0 items-center gap-1.5 rounded-md border border-[#0D6EFD] px-3 py-1.5 text-sm font-medium text-[#0D6EFD] transition-colors hover:bg-blue-50" href={href}>
+            View complete <ArrowUpRight aria-hidden="true" className="size-3.5" />
           </Link>
         ) : null}
       </div>
