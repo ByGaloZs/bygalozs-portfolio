@@ -1,30 +1,63 @@
 {
   "profile": {
     "name": "Mario Padilla Franco",
-    "headline": "Software Engineer focused on AI & Robotics",
-    "location": "Madrid, Spain",
-    "availability": "Open to opportunities",
-    "website": "bygalozs.dev",
-    "email": "mariopadillafranco97@outlook.com",
     "githubUrl": "https://github.com/ByGaloZs",
     "linkedInUrl": "https://www.linkedin.com/in/mario-padilla-7b4988230",
-    "professionalSummary": ["Software engineer with experience delivering conversational AI, robotics and industrial automation systems from implementation and testing through commissioning and production support."],
-    "pdfSummary": "Engineer with professional experience across software, artificial intelligence, robotics and industrial automation. Built, integrated and supported production systems ranging from conversational AI platforms to robotic cells and industrial automation, with hands-on experience in Python, C++, Linux, TypeScript/JavaScript, QA, commissioning and multidisciplinary troubleshooting."
+    "headline": "Software Engineer focused on AI & Robotics",
+    "pdfSummary": "Engineer with professional experience across software, artificial intelligence, robotics and industrial automation. Built, integrated and supported production systems ranging from conversational AI platforms to robotic cells and industrial automation, with hands-on experience in Python, C++, Linux, TypeScript/JavaScript, QA, commissioning and multidisciplinary troubleshooting.",
+    "location": "Madrid, Spain",
+    "website": "bygalozs.dev",
+    "availability": "Open to opportunities",
+    "email": "mariopadillafranco97@outlook.com",
+    "professionalSummary": [
+      "Software engineer with experience delivering conversational AI, robotics and industrial automation systems from implementation and testing through commissioning and production support."
+    ]
   },
   "experiences": [
     {
       "slug": "hubtalk",
       "company": "HubTalk",
       "role": "AI Engineer",
-      "location": "Madrid, Spain",
+      "location": "Remote",
       "startDate": "Feb 2026",
-      "summary": ["Design and validate production voice and chat AI agents, translating operational requirements into reliable conversation logic and repeatable QA workflows.", "Build internal tools and reusable methods for agent testing, evidence capture and conversational-agent quality assurance."],
+      "summary": [
+        "Design and validate production voice and chat AI agents, translating operational requirements into reliable conversation logic and repeatable QA workflows.",
+        "Build internal tools and reusable methods for agent testing, evidence capture and conversational-agent quality assurance."
+      ],
       "details": {
         "overview": "Design, implement and validate production conversational AI systems for voice and chat applications.",
-        "responsibilities": ["Design and maintain global prompts, conversation architecture, node-based flows, dynamic variables, guardrails, routing, escalation logic and response-control rules.", "Build structured flows for qualification, follow-up, objection handling, callbacks, transfers, identity handling and failure recovery.", "Define fallback behavior and conversation-state rules for changing inputs, incomplete information, silence and objections.", "Optimize voice-agent behavior for TTS delivery, including pacing, pauses, pronunciation, punctuation handling and natural Mexican Spanish phrasing.", "Run structured QA with test cases, edge-case coverage, stress scenarios, regression checks, call reviews and failure-mode analysis.", "Use Cekura for conversational-agent testing, including personality-based scenarios and reviewed success/failure evidence.", "Work with OpenAI API, Retell, LiveKit and Whisper across conversational AI development, testing and support workflows.", "Support SIP/VoIP troubleshooting and provider coordination by reviewing call behavior, logs, trunk directionality and platform configuration."],
-        "achievements": ["Built an internal web-based agent tester with Next.js, React, TypeScript, Tailwind and LiveKit for configuring variables, making web calls and exporting QA evidence.", "Created validation for agent IDs and dynamic variables, including required-field, unknown-field and type checks.", "Created the Conversational Agent Engineering (CAE) framework for reusable agent design, testing and documentation."],
-        "technologies": ["OpenAI API", "Retell", "LiveKit", "Whisper", "Cekura", "FusionPBX", "Next.js", "React", "TypeScript"],
-        "pdfHighlights": ["Design and maintain production voice and chat AI agents with prompt architecture, node-based flows, dynamic variables, guardrails, routing and escalation logic.", "Run structured QA using test cases, edge cases, stress scenarios, regression checks, call reviews and failure-mode analysis; use Cekura for test evidence.", "Built an internal Next.js/React agent tester for configuring dynamic variables, making web calls and exporting QA evidence.", "Support voice infrastructure troubleshooting across SIP/VoIP providers, FusionPBX, logs and platform configuration."]
+        "responsibilities": [
+          "Design and maintain global prompts, conversation architecture, node-based flows, dynamic variables, guardrails, routing, escalation logic and response-control rules.",
+          "Build structured flows for qualification, follow-up, objection handling, callbacks, transfers, identity handling and failure recovery.",
+          "Define fallback behavior and conversation-state rules for changing inputs, incomplete information, silence and objections.",
+          "Optimize voice-agent behavior for TTS delivery, including pacing, pauses, pronunciation, punctuation handling and natural Mexican Spanish phrasing.",
+          "Run structured QA with test cases, edge-case coverage, stress scenarios, regression checks, call reviews and failure-mode analysis.",
+          "Use Cekura for conversational-agent testing, including personality-based scenarios and reviewed success/failure evidence.",
+          "Work with OpenAI API, Retell, LiveKit and Whisper across conversational AI development, testing and support workflows.",
+          "Support SIP/VoIP troubleshooting and provider coordination by reviewing call behavior, logs, trunk directionality and platform configuration."
+        ],
+        "achievements": [
+          "Built an internal web-based agent tester with Next.js, React, TypeScript, Tailwind and LiveKit for configuring variables, making web calls and exporting QA evidence.",
+          "Created validation for agent IDs and dynamic variables, including required-field, unknown-field and type checks.",
+          "Created the Conversational Agent Engineering (CAE) framework for reusable agent design, testing and documentation."
+        ],
+        "technologies": [
+          "OpenAI API",
+          "Retell",
+          "LiveKit",
+          "Whisper",
+          "Cekura",
+          "FusionPBX",
+          "Next.js",
+          "React",
+          "TypeScript"
+        ],
+        "pdfHighlights": [
+          "Design and maintain production voice and chat AI agents with prompt architecture, node-based flows, dynamic variables, guardrails, routing and escalation logic.",
+          "Run structured QA using test cases, edge cases, stress scenarios, regression checks, call reviews and failure-mode analysis; use Cekura for test evidence.",
+          "Built an internal Next.js/React agent tester for configuring dynamic variables, making web calls and exporting QA evidence.",
+          "Support voice infrastructure troubleshooting across SIP/VoIP providers, FusionPBX, logs and platform configuration."
+        ]
       }
     },
     {
@@ -34,13 +67,52 @@
       "location": "Leon, Guanajuato, Mexico",
       "startDate": "May 2023",
       "endDate": "Jan 2026",
-      "summary": ["Integrated and commissioned collaborative robots, AMRs, PLC-controlled systems and industrial vision applications in live production environments.", "Programmed and commissioned 10+ industrial and collaborative robots while troubleshooting robotics, controls, Python/C++, Linux and networking issues."],
+      "summary": [
+        "Integrated and commissioned collaborative robots, AMRs, PLC-controlled systems and industrial vision applications in live production environments.",
+        "Programmed and commissioned 10+ industrial and collaborative robots while troubleshooting robotics, controls, Python/C++, Linux and networking issues."
+      ],
       "details": {
         "overview": "Integrated, programmed, commissioned and supported software-driven industrial automation systems in live production environments.",
-        "responsibilities": ["Integrated and supported collaborative robots, AMRs, PLC-controlled systems, industrial vision solutions and integrated production cells.", "Programmed robotic applications for palletizing, pick-and-place, welding, screwdriving, polishing and quality inspection.", "Troubleshot robot motion, PLC signals and I/O mapping, sensors, actuators, vacuum/tooling behavior, vision results, safety devices and application logic.", "Debugged and maintained Python and C++ code used in automation workflows, data handling, equipment behavior and system integration.", "Managed Linux-based automation environments, including configuration, runtime support, log analysis and networking troubleshooting.", "Supported PLC and robot commissioning during installation, validation, start-up and production ramp-up.", "Created operator instructions, troubleshooting guides and technical documentation; provided remote and on-site production support."],
-        "projects": ["Toyota", "Nissan", "Toyoda Gosei", "Beiersdorf/Nivea", "Panita Foods", "Valeo", "Schneider Electric"],
-        "technologies": ["Doosan", "Universal Robots", "DOBOT", "MiR AMRs", "Siemens", "Allen Bradley", "Mitsubishi", "Solomon", "Mech-Mind", "SICK", "Cognex", "Python", "C++", "Linux"],
-        "pdfHighlights": ["Integrated and commissioned collaborative robots, AMRs, PLC-controlled systems, industrial vision solutions and production cells.", "Programmed and commissioned 10+ industrial and collaborative robots for palletizing, welding, pick-and-place, screwdriving, polishing and quality inspection.", "Troubleshot robot motion, PLC signals and I/O, sensors, tooling, vision, safety devices, application logic, Python/C++ code, Linux and networking.", "Provided remote and on-site support, technical documentation and production incident resolution for customer deployments."]
+        "responsibilities": [
+          "Integrated and supported collaborative robots, AMRs, PLC-controlled systems, industrial vision solutions and integrated production cells.",
+          "Programmed robotic applications for palletizing, pick-and-place, welding, screwdriving, polishing and quality inspection.",
+          "Troubleshot robot motion, PLC signals and I/O mapping, sensors, actuators, vacuum/tooling behavior, vision results, safety devices and application logic.",
+          "Debugged and maintained Python and C++ code used in automation workflows, data handling, equipment behavior and system integration.",
+          "Managed Linux-based automation environments, including configuration, runtime support, log analysis and networking troubleshooting.",
+          "Supported PLC and robot commissioning during installation, validation, start-up and production ramp-up.",
+          "Created operator instructions, troubleshooting guides and technical documentation; provided remote and on-site production support."
+        ],
+        "projects": [
+          "Toyota",
+          "Nissan",
+          "Toyoda Gosei",
+          "Beiersdorf/Nivea",
+          "Panita Foods",
+          "Valeo",
+          "Schneider Electric"
+        ],
+        "technologies": [
+          "Doosan",
+          "Universal Robots",
+          "DOBOT",
+          "MiR AMRs",
+          "Siemens",
+          "Allen Bradley",
+          "Mitsubishi",
+          "Solomon",
+          "Mech-Mind",
+          "SICK",
+          "Cognex",
+          "Python",
+          "C++",
+          "Linux"
+        ],
+        "pdfHighlights": [
+          "Integrated and commissioned collaborative robots, AMRs, PLC-controlled systems, industrial vision solutions and production cells.",
+          "Programmed and commissioned 10+ industrial and collaborative robots for palletizing, welding, pick-and-place, screwdriving, polishing and quality inspection.",
+          "Troubleshot robot motion, PLC signals and I/O, sensors, tooling, vision, safety devices, application logic, Python/C++ code, Linux and networking.",
+          "Provided remote and on-site support, technical documentation and production incident resolution for customer deployments."
+        ]
       }
     },
     {
@@ -50,11 +122,23 @@
       "location": "Van Wert, Ohio, USA",
       "startDate": "Apr 2022",
       "endDate": "Mar 2023",
-      "summary": ["Built and integrated custom automation equipment from mechanical and electrical drawings, including conveyors, palletizers and robotic subsystems.", "Performed testing, calibration and pre-commissioning while resolving mechanical, electrical and integration issues before handoff."],
+      "summary": [
+        "Built and integrated custom automation equipment from mechanical and electrical drawings, including conveyors, palletizers and robotic subsystems.",
+        "Performed testing, calibration and pre-commissioning while resolving mechanical, electrical and integration issues before handoff."
+      ],
       "details": {
         "overview": "Performed mechanical assembly, electrical integration, testing and pre-commissioning of custom industrial automation equipment.",
-        "responsibilities": ["Interpreted mechanical drawings, electrical documentation and assembly instructions for custom automated equipment.", "Built conveyors, stackers, palletizers, sorting systems, robotic subsystems and motion-control assemblies.", "Installed and wired sensors, actuators, control panels, safety devices and field wiring for larger production lines.", "Performed system testing, calibration and pre-commissioning checks before handoff.", "Diagnosed wiring, mechanical-fit, signal-integrity and integration issues during assembly and pre-commissioning."],
-        "pdfHighlights": ["Built custom automation equipment including conveyors, palletizers, sorting systems, robotic subsystems and motion-control assemblies from engineering documentation.", "Installed and tested sensors, actuators, control panels and safety devices; resolved mechanical, wiring and integration issues before commissioning."]
+        "responsibilities": [
+          "Interpreted mechanical drawings, electrical documentation and assembly instructions for custom automated equipment.",
+          "Built conveyors, stackers, palletizers, sorting systems, robotic subsystems and motion-control assemblies.",
+          "Installed and wired sensors, actuators, control panels, safety devices and field wiring for larger production lines.",
+          "Performed system testing, calibration and pre-commissioning checks before handoff.",
+          "Diagnosed wiring, mechanical-fit, signal-integrity and integration issues during assembly and pre-commissioning."
+        ],
+        "pdfHighlights": [
+          "Built custom automation equipment including conveyors, palletizers, sorting systems, robotic subsystems and motion-control assemblies from engineering documentation.",
+          "Installed and tested sensors, actuators, control panels and safety devices; resolved mechanical, wiring and integration issues before commissioning."
+        ]
       }
     },
     {
@@ -64,42 +148,422 @@
       "location": "Leon, Guanajuato, Mexico",
       "startDate": "Aug 2021",
       "endDate": "Apr 2022",
-      "summary": ["Supported deployment of an Industry 4.0 laboratory integrating robots, PLCs, remote I/O, sensors and safety systems.", "Prepared technical documentation and supported advanced automation demonstrations at Hannover Messe Leon 2021."],
+      "summary": [
+        "Supported deployment of an Industry 4.0 laboratory integrating robots, PLCs, remote I/O, sensors and safety systems.",
+        "Prepared technical documentation and supported advanced automation demonstrations at Hannover Messe Leon 2021."
+      ],
       "details": {
         "overview": "Supported the launch and operation of an Industry 4.0 laboratory focused on robotics, automation systems and advanced manufacturing technologies.",
-        "responsibilities": ["Supported configuration and deployment of robots, PLCs, remote I/O, sensors, safety scanners and related industrial devices.", "Configured industrial automation components and prepared technical documentation for integration and operation.", "Supported testing, implementation and demonstration of robotics and advanced manufacturing technologies.", "Participated in Hannover Messe Leon 2021, supporting technology demonstrations and implementation."],
-        "pdfHighlights": ["Supported deployment of an Industry 4.0 laboratory integrating robots, PLCs, remote I/O, sensors and safety systems.", "Prepared technical documentation and supported testing and demonstrations of advanced manufacturing technologies at Hannover Messe Leon 2021."]
+        "responsibilities": [
+          "Supported configuration and deployment of robots, PLCs, remote I/O, sensors, safety scanners and related industrial devices.",
+          "Configured industrial automation components and prepared technical documentation for integration and operation.",
+          "Supported testing, implementation and demonstration of robotics and advanced manufacturing technologies.",
+          "Participated in Hannover Messe Leon 2021, supporting technology demonstrations and implementation."
+        ],
+        "pdfHighlights": [
+          "Supported deployment of an Industry 4.0 laboratory integrating robots, PLCs, remote I/O, sensors and safety systems.",
+          "Prepared technical documentation and supported testing and demonstrations of advanced manufacturing technologies at Hannover Messe Leon 2021."
+        ]
       }
     }
   ],
   "projects": [
-    {"slug":"industrial-palletizing-automation","name":"Industrial Palletizing Automation","technologies":["Doosan","Robotics","Palletizing","Automation"],"featured":true,"summary":["Developed and commissioned a production-oriented Doosan robotic palletizing application with configurable logic and recovery safeguards."],"details":{"overview":"Production-oriented robotic palletizing application with configurable logic and reliability safeguards.","achievements":["Developed frame-based pick/place positions, configurable pallet patterns and dynamic approach/retract poses.","Implemented vacuum-handling logic, tool-state behavior, recovery sequences and production continuity counters.","Applied normalized orientations, safe intermediate poses and side-selection logic to improve motion reliability.","Refined operator-facing workflow behavior to improve repeatability and recovery during production."],"pdfHighlights":["Developed configurable pallet patterns, frame-based pick/place positions and dynamic approach/retract poses for a Doosan robot cell.","Implemented vacuum/tool-state handling, recovery sequences, continuity counters and motion safeguards for production reliability."]}},
-    {"slug":"industrial-robot-programming-commissioning","name":"Industrial Robot Programming & Commissioning","technologies":["Robotics","Commissioning","Welding","Pick-and-Place","Screwdriving","Polishing"],"featured":true,"summary":["Programmed and commissioned 10+ industrial and collaborative robots across manufacturing applications and customer deployments."],"details":{"overview":"Industrial and collaborative robot programming and commissioning across multiple manufacturing environments.","achievements":["Delivered applications for welding, pick-and-place, screwdriving, polishing, palletizing and quality inspection.","Configured robots, tools and coordinate frames; integrated I/O; validated motion; supported production start-up and troubleshooting.","Selected customer projects included Toyota, Nissan, Toyoda Gosei, Beiersdorf/Nivea, Panita Foods, Valeo and Schneider Electric."],"pdfHighlights":["Programmed and commissioned 10+ industrial and collaborative robots for welding, pick-and-place, screwdriving, polishing, palletizing and quality inspection.","Performed robot configuration, tool and frame setup, I/O integration, motion validation, start-up and troubleshooting for automotive and consumer-goods customers."]}},
-    {"slug":"conversational-agent-engineering","name":"Conversational Agent Engineering (CAE) Framework","technologies":["OpenAI API","Cekura","Retell","LiveKit","LLM Agents","Voice AI"],"featured":true,"summary":["Created a reusable engineering framework for designing and QA-testing production conversational agents."],"details":{"overview":"Reusable methodology and engineering framework for designing, generating and QA-testing production conversational agents.","achievements":["Structured business requirements into reusable conversation architectures, prompt patterns, nodes, routing rules and variable models.","Designed QA processes covering happy paths, edge cases, adversarial scenarios, personality-based stress tests and regression testing.","Defined quality metrics and failure-analysis workflows for prompts, routing, state handling and business-rule compliance.","Documented methodology, node references, runtime behavior, variable models and evaluation practices for repeatable development."],"pdfHighlights":["Structured business requirements into reusable conversation architectures, prompt patterns, routing rules and variable models.","Defined QA processes, quality metrics and failure analysis covering edge cases, adversarial scenarios and regression testing."]}},
-    {"slug":"doosan-ros-2-motion-planning-lab","name":"Doosan ROS 2 Motion Planning Lab","technologies":["ROS 2 Jazzy","Python","C++","Docker","MoveIt 2","RViz 2","Gazebo","Doosan"],"summary":["Built a modular ROS 2 simulation environment for trajectory planning and motion execution with a Doosan M1013 robot."],"details":{"overview":"Robotics software project focused on modular trajectory generation, motion execution, robot abstraction and reproducible simulation workflows.","achievements":["Built and validated a ROS 2 Jazzy environment on Ubuntu 24.04 with a simulated Doosan M1013 robot and Docker-based tooling.","Worked with service-based motion execution and modular separation between motion requests and robot-specific implementations.","Designed concepts for trajectory generation, execution requests, robot-adapter abstraction, telemetry and mock adapters.","Used MoveIt 2, RViz 2 and Gazebo for planning, visualization and simulation."],"pdfHighlights":["Built a Docker-based ROS 2 Jazzy simulation environment for a Doosan M1013 robot on Ubuntu 24.04.","Worked with modular motion execution, robot abstraction and planning/visualization using MoveIt 2, RViz 2 and Gazebo."]}},
-    {"slug":"study-copilot","name":"Study Copilot - Lecture Transcription & Notes Pipeline","technologies":["Next.js","TypeScript","Python","Supabase","Whisper","FFmpeg","OpenAI API"],"summary":["Built a full-stack pipeline that processes lecture recordings and PDFs into transcripts and structured study notes."],"details":{"overview":"Full-stack application for processing lecture recordings and PDFs, generating transcripts and synthesizing structured study notes.","achievements":["Built a Next.js and TypeScript interface for audio/PDF upload, processing status and mobile-friendly note viewing.","Implemented Python workers for FFmpeg preprocessing, audio chunking, Whisper transcription and structured note generation.","Used Supabase for queue/state management and private result storage, including safe worker job claiming and failure handling.","Designed reusable prompts and templates for lecture-note synthesis and master-note generation."],"pdfHighlights":["Built a Next.js/TypeScript interface and Python workers for audio/PDF processing, Whisper transcription and structured note generation.","Used Supabase for queue and state management, private result storage, job claiming and failure handling."]}}
+    {
+      "slug": "industrial-palletizing-automation",
+      "name": "Industrial Palletizing Automation",
+      "technologies": [
+        "Doosan",
+        "Robotics",
+        "Palletizing",
+        "Automation"
+      ],
+      "featured": true,
+      "summary": [
+        "Developed and commissioned a production-oriented Doosan robotic palletizing application with configurable logic and recovery safeguards."
+      ],
+      "details": {
+        "overview": "Production-oriented robotic palletizing application with configurable logic and reliability safeguards.",
+        "achievements": [
+          "Developed frame-based pick/place positions, configurable pallet patterns and dynamic approach/retract poses.",
+          "Implemented vacuum-handling logic, tool-state behavior, recovery sequences and production continuity counters.",
+          "Applied normalized orientations, safe intermediate poses and side-selection logic to improve motion reliability.",
+          "Refined operator-facing workflow behavior to improve repeatability and recovery during production."
+        ],
+        "pdfHighlights": [
+          "Developed configurable pallet patterns, frame-based pick/place positions and dynamic approach/retract poses for a Doosan robot cell.",
+          "Implemented vacuum/tool-state handling, recovery sequences, continuity counters and motion safeguards for production reliability."
+        ]
+      }
+    },
+    {
+      "slug": "industrial-robot-programming-commissioning",
+      "name": "Industrial Robot Programming & Commissioning",
+      "technologies": [
+        "Robotics",
+        "Commissioning",
+        "Welding",
+        "Pick-and-Place",
+        "Screwdriving",
+        "Polishing"
+      ],
+      "featured": true,
+      "summary": [
+        "Programmed and commissioned 10+ industrial and collaborative robots across manufacturing applications and customer deployments."
+      ],
+      "details": {
+        "overview": "Industrial and collaborative robot programming and commissioning across multiple manufacturing environments.",
+        "achievements": [
+          "Delivered applications for welding, pick-and-place, screwdriving, polishing, palletizing and quality inspection.",
+          "Configured robots, tools and coordinate frames; integrated I/O; validated motion; supported production start-up and troubleshooting.",
+          "Selected customer projects included Toyota, Nissan, Toyoda Gosei, Beiersdorf/Nivea, Panita Foods, Valeo and Schneider Electric."
+        ],
+        "pdfHighlights": [
+          "Programmed and commissioned 10+ industrial and collaborative robots for welding, pick-and-place, screwdriving, polishing, palletizing and quality inspection.",
+          "Performed robot configuration, tool and frame setup, I/O integration, motion validation, start-up and troubleshooting for automotive and consumer-goods customers."
+        ]
+      }
+    },
+    {
+      "slug": "conversational-agent-engineering",
+      "name": "Conversational Agent Engineering (CAE) Framework",
+      "technologies": [
+        "OpenAI API",
+        "Cekura",
+        "Retell",
+        "LiveKit",
+        "LLM Agents",
+        "Voice AI"
+      ],
+      "featured": true,
+      "summary": [
+        "Created a reusable engineering framework for designing and QA-testing production conversational agents."
+      ],
+      "details": {
+        "overview": "Reusable methodology and engineering framework for designing, generating and QA-testing production conversational agents.",
+        "achievements": [
+          "Structured business requirements into reusable conversation architectures, prompt patterns, nodes, routing rules and variable models.",
+          "Designed QA processes covering happy paths, edge cases, adversarial scenarios, personality-based stress tests and regression testing.",
+          "Defined quality metrics and failure-analysis workflows for prompts, routing, state handling and business-rule compliance.",
+          "Documented methodology, node references, runtime behavior, variable models and evaluation practices for repeatable development."
+        ],
+        "pdfHighlights": [
+          "Structured business requirements into reusable conversation architectures, prompt patterns, routing rules and variable models.",
+          "Defined QA processes, quality metrics and failure analysis covering edge cases, adversarial scenarios and regression testing."
+        ]
+      }
+    },
+    {
+      "slug": "doosan-ros-2-motion-planning-lab",
+      "name": "Doosan ROS 2 Motion Planning Lab",
+      "technologies": [
+        "ROS 2 Jazzy",
+        "Python",
+        "C++",
+        "Docker",
+        "MoveIt 2",
+        "RViz 2",
+        "Gazebo",
+        "Doosan"
+      ],
+      "summary": [
+        "Built a modular ROS 2 simulation environment for trajectory planning and motion execution with a Doosan M1013 robot."
+      ],
+      "details": {
+        "overview": "Robotics software project focused on modular trajectory generation, motion execution, robot abstraction and reproducible simulation workflows.",
+        "achievements": [
+          "Built and validated a ROS 2 Jazzy environment on Ubuntu 24.04 with a simulated Doosan M1013 robot and Docker-based tooling.",
+          "Worked with service-based motion execution and modular separation between motion requests and robot-specific implementations.",
+          "Designed concepts for trajectory generation, execution requests, robot-adapter abstraction, telemetry and mock adapters.",
+          "Used MoveIt 2, RViz 2 and Gazebo for planning, visualization and simulation."
+        ],
+        "pdfHighlights": [
+          "Built a Docker-based ROS 2 Jazzy simulation environment for a Doosan M1013 robot on Ubuntu 24.04.",
+          "Worked with modular motion execution, robot abstraction and planning/visualization using MoveIt 2, RViz 2 and Gazebo."
+        ]
+      }
+    },
+    {
+      "slug": "study-copilot",
+      "name": "Study Copilot - Lecture Transcription & Notes Pipeline",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "Python",
+        "Supabase",
+        "Whisper",
+        "FFmpeg",
+        "OpenAI API"
+      ],
+      "summary": [
+        "Built a full-stack pipeline that processes lecture recordings and PDFs into transcripts and structured study notes."
+      ],
+      "details": {
+        "overview": "Full-stack application for processing lecture recordings and PDFs, generating transcripts and synthesizing structured study notes.",
+        "achievements": [
+          "Built a Next.js and TypeScript interface for audio/PDF upload, processing status and mobile-friendly note viewing.",
+          "Implemented Python workers for FFmpeg preprocessing, audio chunking, Whisper transcription and structured note generation.",
+          "Used Supabase for queue/state management and private result storage, including safe worker job claiming and failure handling.",
+          "Designed reusable prompts and templates for lecture-note synthesis and master-note generation."
+        ],
+        "pdfHighlights": [
+          "Built a Next.js/TypeScript interface and Python workers for audio/PDF processing, Whisper transcription and structured note generation.",
+          "Used Supabase for queue and state management, private result storage, job claiming and failure handling."
+        ]
+      }
+    }
   ],
   "education": [
-    {"slug":"master-computer-science-technology","institution":"Universidad Carlos III de Madrid","qualification":"Master in Computer Science and Technology","startDate":"2026","summary":["Current postgraduate studies in advanced computer science and computing technologies (60 ECTS)."],"details":{"coursework":["Artificial Intelligence of Biological Inspiration","Automatic Planning","Digitization of Complex Systems Engineering","Parallel & Distributed Systems","Cybersecurity & Privacy","Robotics","3D Perception","Robot Simulators"]}},
-    {"slug":"professional-masters-robotics","institution":"TECH Universidad","qualification":"Professional Master's Degree in Robotics","startDate":"2024","endDate":"2025","summary":["University-specific degree (Titulo Propio), 60 credits and 1,500 hours."],"details":{"overview":"Focused on robotics, automation, artificial intelligence, planning, perception and robot interaction.","coursework":["Robotics: Design and Modeling of Robots","Intelligent Agents","Robotics in Industrial Process Automation","Automatic Control Systems in Robotics","Robot Planning Algorithms","Computer Vision Techniques in Robotics","Robot Visual Perception Systems with Machine Learning","Visual SLAM","Virtual and Augmented Reality Technologies Applied to Robotics","Robot Communication and Interaction Systems"]}},
-    {"slug":"bachelors-mechatronics-engineering","institution":"Universidad Iberoamericana","qualification":"Bachelor's Degree in Mechatronics Engineering","startDate":"2017","endDate":"2021","summary":["Graduated with honors for academic excellence."],"details":{"overview":"Academic focus included robotics, control, automation, electronics, mechanical systems and integrated mechatronic systems."}}
+    {
+      "slug": "master-computer-science-technology",
+      "institution": "Universidad Carlos III de Madrid",
+      "qualification": "Master in Computer Science and Technology",
+      "startDate": "2026",
+      "summary": [
+        "Current postgraduate studies in advanced computer science and computing technologies (60 ECTS)."
+      ],
+      "details": {
+        "coursework": [
+          "Artificial Intelligence of Biological Inspiration",
+          "Automatic Planning",
+          "Digitization of Complex Systems Engineering",
+          "Parallel & Distributed Systems",
+          "Cybersecurity & Privacy",
+          "Robotics",
+          "3D Perception",
+          "Robot Simulators"
+        ]
+      }
+    },
+    {
+      "slug": "professional-masters-robotics",
+      "institution": "TECH Universidad",
+      "qualification": "Professional Master's Degree in Robotics",
+      "startDate": "2024",
+      "endDate": "2025",
+      "summary": [
+        "University-specific degree (Titulo Propio), 60 credits and 1,500 hours."
+      ],
+      "details": {
+        "overview": "Focused on robotics, automation, artificial intelligence, planning, perception and robot interaction.",
+        "coursework": [
+          "Robotics: Design and Modeling of Robots",
+          "Intelligent Agents",
+          "Robotics in Industrial Process Automation",
+          "Automatic Control Systems in Robotics",
+          "Robot Planning Algorithms",
+          "Computer Vision Techniques in Robotics",
+          "Robot Visual Perception Systems with Machine Learning",
+          "Visual SLAM",
+          "Virtual and Augmented Reality Technologies Applied to Robotics",
+          "Robot Communication and Interaction Systems"
+        ]
+      }
+    },
+    {
+      "slug": "bachelors-mechatronics-engineering",
+      "institution": "Universidad Iberoamericana",
+      "qualification": "Bachelor's Degree in Mechatronics Engineering",
+      "startDate": "2017",
+      "endDate": "2021",
+      "summary": [
+        "Graduated with honors for academic excellence."
+      ],
+      "details": {
+        "overview": "Academic focus included robotics, control, automation, electronics, mechanical systems and integrated mechatronic systems."
+      }
+    }
   ],
   "certifications": [
-    {"name":"IBM Full Stack Software Developer Professional Certificate","issuer":"IBM","date":"In progress","details":["Introduction to Software Engineering","Introduction to Cloud Computing","Introduction to HTML, CSS & JavaScript","Getting Started with Git and GitHub","Developing Front-End Apps with React","Developing Back-End Apps with Node.js and Express","Python for Data Science, AI & Development","Developing AI Applications with Python and Flask"]},
-    {"name":"DevOps Basics for Everyone","issuer":"IBM","date":"May 2025"},
-    {"name":"EF SET English Certificate - C1 Advanced","issuer":"EF SET","date":"2024"},
-    {"name":"Crash Course on Python","issuer":"Google","date":"2024"}
+    {
+      "name": "IBM Full Stack Software Developer Professional Certificate",
+      "issuer": "IBM",
+      "date": "In progress",
+      "details": [
+        "Introduction to Software Engineering",
+        "Introduction to Cloud Computing",
+        "Introduction to HTML, CSS & JavaScript",
+        "Getting Started with Git and GitHub",
+        "Developing Front-End Apps with React",
+        "Developing Back-End Apps with Node.js and Express",
+        "Python for Data Science, AI & Development",
+        "Developing AI Applications with Python and Flask"
+      ]
+    },
+    {
+      "name": "DevOps Basics for Everyone",
+      "issuer": "IBM",
+      "date": "May 2025"
+    },
+    {
+      "name": "EF SET English Certificate - C1 Advanced",
+      "issuer": "EF SET",
+      "date": "2024"
+    },
+    {
+      "name": "Crash Course on Python",
+      "issuer": "Google",
+      "date": "2024"
+    }
   ],
   "skillGroups": [
-    {"category":"Software Development","skills":["Python","C++","JavaScript","TypeScript","HTML","CSS","React","Next.js","Node.js","Express","SQL","Git","GitHub","Linux","Docker"],"websiteSkills":["Python","C++","TypeScript","React","Next.js","Node.js","SQL","Linux","Docker"]},
-    {"category":"AI & Voice Systems","skills":["OpenAI API","Whisper","Cekura","Retell","LiveKit","LLM Agents","Voice Agents","Prompt Engineering","Conversation Architecture","Dynamic Variables","Guardrails","Routing & Escalation","Structured QA","Regression Testing","Edge-Case Analysis","Failure-Mode Analysis"],"websiteSkills":["OpenAI API","Whisper","Cekura","Retell","LiveKit","LLM Agents","Prompt Engineering","AI QA"]},
-    {"category":"Robotics & Simulation","skills":["ROS 2","MoveIt 2","RViz 2","Gazebo","Webots","RoboDK","Doosan","Universal Robots","DOBOT","MiR AMRs"],"websiteSkills":["ROS 2","MoveIt 2","RViz 2","Gazebo","RoboDK","Doosan","Universal Robots","MiR AMRs"]},
-    {"category":"Automation & Controls","skills":["PLCs","Siemens","Allen Bradley","Mitsubishi","PLC Signals","I/O Mapping","Sensors","Actuators","Safety Devices","Safety Scanners","Control Panels","Calibration","Production Troubleshooting"],"websiteSkills":["PLCs","Siemens","Allen Bradley","Mitsubishi","I/O Mapping","Sensors","Safety Devices","Commissioning"]},
-    {"category":"Industrial Vision","skills":["Solomon","Mech-Mind","SICK","Cognex","Vision-Guided Automation","Quality Inspection"],"websiteSkills":["Solomon","Mech-Mind","SICK","Cognex","Quality Inspection"]},
-    {"category":"Networking & Voice Infrastructure","skills":["SIP/VoIP Troubleshooting","FusionPBX","Network Diagnostics","Linux Networking","TCP/IP Fundamentals"],"websiteSkills":["SIP/VoIP","FusionPBX","Network Diagnostics","Linux Networking"]}
+    {
+      "category": "Software Development",
+      "skills": [
+        "Python",
+        "C++",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "SQL",
+        "Git",
+        "GitHub",
+        "Linux",
+        "Docker"
+      ],
+      "websiteSkills": [
+        "Python",
+        "C++",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "SQL",
+        "Linux",
+        "Docker"
+      ]
+    },
+    {
+      "category": "AI & Voice Systems",
+      "skills": [
+        "OpenAI API",
+        "Whisper",
+        "Cekura",
+        "Retell",
+        "LiveKit",
+        "LLM Agents",
+        "Voice Agents",
+        "Prompt Engineering",
+        "Conversation Architecture",
+        "Dynamic Variables",
+        "Guardrails",
+        "Routing & Escalation",
+        "Structured QA",
+        "Regression Testing",
+        "Edge-Case Analysis",
+        "Failure-Mode Analysis"
+      ],
+      "websiteSkills": [
+        "OpenAI API",
+        "Whisper",
+        "Cekura",
+        "Retell",
+        "LiveKit",
+        "LLM Agents",
+        "Prompt Engineering",
+        "AI QA"
+      ]
+    },
+    {
+      "category": "Robotics & Simulation",
+      "skills": [
+        "ROS 2",
+        "MoveIt 2",
+        "RViz 2",
+        "Gazebo",
+        "Webots",
+        "RoboDK",
+        "Doosan",
+        "Universal Robots",
+        "DOBOT",
+        "MiR AMRs"
+      ],
+      "websiteSkills": [
+        "ROS 2",
+        "MoveIt 2",
+        "RViz 2",
+        "Gazebo",
+        "RoboDK",
+        "Doosan",
+        "Universal Robots",
+        "MiR AMRs"
+      ]
+    },
+    {
+      "category": "Automation & Controls",
+      "skills": [
+        "PLCs",
+        "Siemens",
+        "Allen Bradley",
+        "Mitsubishi",
+        "PLC Signals",
+        "I/O Mapping",
+        "Sensors",
+        "Actuators",
+        "Safety Devices",
+        "Safety Scanners",
+        "Control Panels",
+        "Calibration",
+        "Production Troubleshooting"
+      ],
+      "websiteSkills": [
+        "PLCs",
+        "Siemens",
+        "Allen Bradley",
+        "Mitsubishi",
+        "I/O Mapping",
+        "Sensors",
+        "Safety Devices",
+        "Commissioning"
+      ]
+    },
+    {
+      "category": "Industrial Vision",
+      "skills": [
+        "Solomon",
+        "Mech-Mind",
+        "SICK",
+        "Cognex",
+        "Vision-Guided Automation",
+        "Quality Inspection"
+      ],
+      "websiteSkills": [
+        "Solomon",
+        "Mech-Mind",
+        "SICK",
+        "Cognex",
+        "Quality Inspection"
+      ]
+    },
+    {
+      "category": "Networking & Voice Infrastructure",
+      "skills": [
+        "SIP/VoIP Troubleshooting",
+        "FusionPBX",
+        "Network Diagnostics",
+        "Linux Networking",
+        "TCP/IP Fundamentals"
+      ],
+      "websiteSkills": [
+        "SIP/VoIP",
+        "FusionPBX",
+        "Network Diagnostics",
+        "Linux Networking"
+      ]
+    }
   ],
   "languages": [
-    {"name":"Spanish","proficiency":"Native"},
-    {"name":"English","proficiency":"C1 Advanced - EF SET certified"}
+    {
+      "name": "Spanish",
+      "proficiency": "Native"
+    },
+    {
+      "name": "English",
+      "proficiency": "C1 Advanced - EF SET certified"
+    }
   ]
 }
