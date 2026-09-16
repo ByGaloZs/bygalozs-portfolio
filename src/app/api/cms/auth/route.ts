@@ -16,7 +16,9 @@ export function GET(request: Request) {
   authorizationUrl.searchParams.set("scope", "repo");
   authorizationUrl.searchParams.set("state", state);
 
-  const response = NextResponse.redirect(authorizationUrl);
+  const handshake = "authorizing:github";
+  const body = `<!doctype html><html><body><script>const handshake=${JSON.stringify(handshake)};const origin=${JSON.stringify(origin)};window.addEventListener("message",event=>{if(event.origin===origin&&event.data===handshake)window.location.assign(${JSON.stringify(authorizationUrl.toString())});});window.opener?.postMessage(handshake,origin);</script></body></html>`;
+  const response = new NextResponse(body, { headers: { "Content-Type": "text/html; charset=utf-8" } });
   response.cookies.set("cms_oauth_state", state, {
     httpOnly: true,
     maxAge: 600,
