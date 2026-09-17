@@ -21,24 +21,24 @@
       "location": "Remote",
       "startDate": "Feb 2026",
       "summary": [
-        "Design, build and maintain production voice and chat AI agents, translating business requirements into conversational flows, prompts, variables, guardrails and knowledge behavior.",
-        "Define and execute agent evaluation and QA workflows, including stress testing, reusable test methods, evidence capture and internal validation tools.",
-        "Support production deployments and integrations end to end, troubleshooting SIP/VoIP, APIs, runtime logic and platform issues while improving reliability and documenting technical solutions."
+        "Engineer production conversational AI systems for voice and chat applications across multiple client use cases.",
+        "Work across agent architecture, evaluation, integrations and voice infrastructure to deliver reliable AI-driven customer interactions.",
+        "Support the full agent lifecycle from requirements and implementation through validation, deployment and production improvement."
       ],
       "details": {
         "overview": "Design, implement and validate production conversational AI systems for voice and chat applications, combining agent architecture, evaluation, software tooling and production integrations.",
         "responsibilities": [
-          "Design and implement conversational AI agents using modular flows, prompts, conditional logic, variables, knowledge bases and behavioral guardrails.",
-          "Translate business requirements, scripts and operational rules into reliable conversational architectures for production voice and chat applications",
-          "Develop evaluation strategies and structured QA workflows for conversational agents, including functional testing, stress testing, edge cases and regression validation.",
-          "Build internal tools and reusable utilities for agent testing, configuration validation, evidence capture and quality-assurance workflows.",
-          "Analyze conversation results and production behavior to identify failures, improve agent reliability and refine conversational logic.",
-          "Integrate and troubleshoot APIs, webhooks, dynamic variables and external services used by conversational AI applications.",
-          "Support voice infrastructure and telephony integrations, diagnosing SIP/VoIP, trunking, call-routing and connectivity issues across production deployments.",
-          "Create technical documentation, testing methodologies and reusable engineering practices to standardize agent development, evaluation and troubleshooting."
+          "Translate business requirements, scripts and operational rules into modular conversational architectures using prompts, routing logic, variables, knowledge sources and behavioral guardrails.",
+          "Implement agent logic, extraction rules, validation flows and reusable components for complex conversational scenarios.",
+          "Design structured evaluation workflows covering functional tests, edge cases, adversarial scenarios, stress testing and regression validation.",
+          "Analyze conversation results, failure modes and production behavior to refine agent logic, reliability and conversational quality.",
+          "Build internal utilities for agent testing, call execution, dynamic-variable validation, evidence capture and QA workflows.",
+          "Integrate conversational applications with REST APIs, webhooks and external services used by client workflows.",
+          "Configure and troubleshoot voice infrastructure involving SIP/VoIP, trunks, call routing, connectivity and telephony services.",
+          "Create technical documentation, reusable methodologies and implementation guidelines for agent development, evaluation and troubleshooting."
         ],
         "achievements": [
-          "Built an internal agent-testing tool to validate web voice calls, dynamic variables, call behavior and QA evidence in a repeatable workflow.",
+          "Built and validated 10+ production-ready conversational AI agents across multiple client use cases, from initial requirements through testing and deployment.",
           "Developed reusable conversational-agent evaluation methods, metrics and stress-test frameworks to standardize QA across multiple agents and use cases.",
           "Built and validated 10+ production-ready conversational AI agents across multiple client use cases, from initial requirements through testing and deployment."
         ],
@@ -52,7 +52,7 @@
           "SIP / VoIP",
           "LiveKit",
           "FusionPBX",
-          "Retell",
+          "Retell AI",
           "Cekura"
         ],
         "pdfHighlights": [
@@ -72,9 +72,9 @@
       "startDate": "May 2023",
       "endDate": "Jan 2026",
       "summary": [
-        "Integrated and commissioned industrial and collaborative robotic systems, AMRs, PLC-controlled equipment, vision systems and automated production cells for manufacturing customers.",
-        "Programmed and commissioned 10+ industrial and collaborative robots for applications including palletizing, welding, pick-and-place, screwdriving, polishing and quality inspection.",
-        "Troubleshot robot motion, PLC signals and I/O, sensors, tooling, vision, safety systems, application logic and software issues while providing remote and on-site production support."
+        "Developed and deployed robotic and industrial automation solutions for manufacturing applications across multiple customer environments.",
+        "Worked across industrial robotics, machine vision, mobile robotics, controls and robotics software to connect digital and physical automation systems.",
+        "Supported the complete technical lifecycle from application development and validation through commissioning, production start-up and customer support."
       ],
       "details": {
         "overview": "Integrated, programmed and commissioned robotic and industrial automation systems for manufacturing applications, covering robot programming, machine vision, PLC/I/O integration, AMRs, production troubleshooting and customer support.",
@@ -82,12 +82,12 @@
           "Program and commission industrial and collaborative robots for palletizing, welding, pick-and-place, screwdriving, polishing and quality-inspection applications.",
           "Configure robot tools, coordinate frames, motion sequences, I/O and application logic for automated manufacturing cells.",
           "Integrate robots with PLC-controlled equipment, sensors, actuators, safety devices and external automation systems.",
-          "Use RoboDK, ROS 2 and Webots for robot simulation, trajectory validation, offline testing and development of robotic applications before deployment on physical systems.",
-          "Implement and troubleshoot industrial vision systems for robot guidance, inspection and part-detection applications.",
+          "Develop and test robotic application logic and integration utilities using Python and C++.",
+          "Use RoboDK, ROS 2 and Webots for robot simulation, trajectory validation, offline testing and application development before deployment on physical systems.",
+          "Implement and troubleshoot industrial machine-vision and robotic-perception systems for guidance, inspection and part detection.",
           "Integrate and support autonomous mobile robots for material-handling and intralogistics applications.",
-          "Perform on-site commissioning, calibration, testing and production start-up for customer automation systems.",
-          "Diagnose robot motion, PLC signals, I/O, networking, sensors, tooling, vision and software issues during integration and production support.",
-          "Prepare technical documentation, operator instructions and troubleshooting guides while providing remote and on-site support to manufacturing customers."
+          "Perform on-site commissioning, calibration, system testing and production start-up for customer automation systems.",
+          "Diagnose robot motion, PLC/I/O, networking, sensors, tooling, vision, safety and software issues while providing remote and on-site technical support."
         ],
         "projects": [],
         "technologies": [
@@ -109,16 +109,16 @@
           "Industrial Ethernet / TCP-IP"
         ],
         "pdfHighlights": [
-          "Integrated and commissioned industrial and collaborative robotic systems, AMRs, PLC-controlled equipment, machine vision and automated production cells for manufacturing applications.",
+          "Integrated and commissioned robotic and industrial automation systems combining robots, AMRs, PLC-controlled equipment, machine vision and production-cell hardware.",
           "Programmed and commissioned 10+ industrial and collaborative robots for palletizing, welding, pick-and-place, screwdriving, polishing and quality-inspection applications.",
-          "Developed and tested robotic applications in C++ and Python, using simulation, trajectory validation and offline testing before deployment on physical systems.",
+          "=Developed and tested robotic applications in Python and C++, using simulation and offline validation before deployment on physical systems.",
           "Used robot simulation and robotics software for trajectory validation, offline testing and application development before deployment on physical systems.",
-          "Implemented and troubleshot machine-vision, robotic-perception and mobile-robot systems for inspection, guidance and intralogistics applications.",
+          "Implemented machine-vision, robotic-perception and mobile-robot solutions for guidance, inspection and intralogistics applications.",
           "Performed on-site commissioning, production start-up and multidisciplinary troubleshooting across robot motion, PLC/I/O, sensors, tooling, networking, safety and application logic."
         ],
         "achievements": [
           "Programmed and commissioned 10+ industrial and collaborative robots across production projects for customers including Toyota, Nissan, Toyoda Gosei, Beiersdorf/Nivea, Panita Foods, Valeo and Schneider Electric.",
-          "Developed and deployed a production palletizing application with configurable pallet patterns, frame-based positioning, vacuum handling, recovery logic and safe motion sequences.",
+          "Developed and commissioned a production robotic palletizing application with configurable pallet patterns, frame-based positioning, vacuum handling, recovery sequences and motion safeguards.",
           "Applied RoboDK, ROS 2 and Webots for simulation, trajectory validation and offline testing, validating robotic applications before deployment on physical systems."
         ]
       }
@@ -131,21 +131,43 @@
       "startDate": "Apr 2022",
       "endDate": "Mar 2023",
       "summary": [
-        "Built and integrated custom automation equipment from mechanical and electrical drawings, including conveyors, palletizers and robotic subsystems.",
-        "Performed testing, calibration and pre-commissioning while resolving mechanical, electrical and integration issues before handoff."
+        "Built and integrated custom industrial automation equipment for manufacturing and production-line applications.",
+        "Worked across mechanical assembly, electrical integration and automation hardware to prepare complex equipment for commissioning.",
+        "Supported the equipment lifecycle from engineering drawings and assembly through testing, troubleshooting and pre-commissioning validation."
       ],
       "details": {
-        "overview": "Performed mechanical assembly, electrical integration, testing and pre-commissioning of custom industrial automation equipment.",
+        "overview": "Contributed to the assembly, integration and pre-commissioning of custom industrial automation equipment for manufacturing applications, working across mechanical, electrical and system-level validation.",
         "responsibilities": [
-          "Interpreted mechanical drawings, electrical documentation and assembly instructions for custom automated equipment.",
-          "Built conveyors, stackers, palletizers, sorting systems, robotic subsystems and motion-control assemblies.",
-          "Installed and wired sensors, actuators, control panels, safety devices and field wiring for larger production lines.",
-          "Performed system testing, calibration and pre-commissioning checks before handoff.",
-          "Diagnosed wiring, mechanical-fit, signal-integrity and integration issues during assembly and pre-commissioning."
+          "Interpret mechanical drawings, electrical schematics and assembly documentation to build custom industrial automation equipment.",
+          "Assemble conveyors, palletizers, sorting systems, robotic subsystems and motion-control assemblies for automated production lines.",
+          "Perform mechanical installation, alignment, adjustment and fit-up of machine components and automation hardware.",
+          "Install and wire sensors, actuators, motors, control panels, safety devices and field components according to engineering documentation.",
+          "Integrate mechanical and electrical subsystems during machine build and preparation for commissioning.",
+          "Perform system testing, calibration and pre-commissioning checks before equipment handoff and production deployment.",
+          "Diagnose and resolve mechanical-fit, wiring, signal-integrity and integration issues discovered during assembly and testing.",
+          "Support troubleshooting and corrective modifications in coordination with engineering and controls teams."
         ],
         "pdfHighlights": [
-          "Built custom automation equipment including conveyors, palletizers, sorting systems, robotic subsystems and motion-control assemblies from engineering documentation.",
-          "Installed and tested sensors, actuators, control panels and safety devices; resolved mechanical, wiring and integration issues before commissioning."
+          "Built and integrated custom industrial automation equipment from mechanical drawings, electrical schematics and engineering documentation.",
+          "Assembled conveyors, palletizers, sorting systems, robotic subsystems and motion-control assemblies for automated production lines.",
+          "Installed and integrated sensors, actuators, motors, control panels, safety devices and industrial wiring across custom machinery.",
+          "Performed system testing, calibration and pre-commissioning while diagnosing mechanical, electrical and integration issues before equipment handoff.",
+          "Worked across mechanical and electrical disciplines to support the build and preparation of production automation systems for commissioning."
+        ],
+        "achievements": [
+          "Built and integrated custom automation equipment including conveyors, palletizers, sorting systems, robotic subsystems and motion-control assemblies for manufacturing lines across USA."
+        ],
+        "technologies": [
+          "Industrial Automation Equipment",
+          "Electrical Schematics",
+          "Mechanical Drawings",
+          "Electric Motors",
+          "Control Panels",
+          "Electrical Wiring",
+          "Industrial Safety Systems",
+          "Robotic Subsystems",
+          "Industrial I/O",
+          "PLC"
         ]
       }
     },
@@ -157,20 +179,39 @@
       "startDate": "Aug 2021",
       "endDate": "Apr 2022",
       "summary": [
-        "Supported deployment of an Industry 4.0 laboratory integrating robots, PLCs, remote I/O, sensors and safety systems.",
-        "Prepared technical documentation and supported advanced automation demonstrations at Hannover Messe Leon 2021."
+        "Supported the development and operation of an Industry 4.0 laboratory focused on robotics, industrial automation and advanced manufacturing technologies.",
+        "Worked across robots, PLC-controlled systems, industrial I/O, sensors and safety hardware to integrate and demonstrate automation solutions.",
+        "Supported system configuration, testing, technical documentation and technology demonstrations for industrial and educational applications."
       ],
       "details": {
-        "overview": "Supported the launch and operation of an Industry 4.0 laboratory focused on robotics, automation systems and advanced manufacturing technologies.",
+        "overview": "Supported the deployment and operation of an Industry 4.0 laboratory integrating robotics, industrial controls, sensing and safety technologies for automation development and demonstration.",
         "responsibilities": [
-          "Supported configuration and deployment of robots, PLCs, remote I/O, sensors, safety scanners and related industrial devices.",
-          "Configured industrial automation components and prepared technical documentation for integration and operation.",
-          "Supported testing, implementation and demonstration of robotics and advanced manufacturing technologies.",
-          "Participated in Hannover Messe Leon 2021, supporting technology demonstrations and implementation."
+          "Configure and support industrial robots, PLCs, remote I/O modules, sensors and related automation hardware.",
+          "Integrate industrial devices through digital and analog I/O for robotic and automation demonstrations.",
+          "Support testing, calibration and validation of robotic and industrial automation systems before demonstrations and operation.",
+          "Install and configure safety sensors, scanners and related protective devices used in automated environments.",
+          "Diagnose basic connectivity, I/O, sensor and equipment-integration issues during system setup and testing.",
+          "Prepare technical documentation, operating instructions and system information for laboratory equipment and automation demonstrations.",
+          "Support the implementation and demonstration of robotics, automation and advanced-manufacturing technologies for visitors and technical audiences."
         ],
         "pdfHighlights": [
-          "Supported deployment of an Industry 4.0 laboratory integrating robots, PLCs, remote I/O, sensors and safety systems.",
-          "Prepared technical documentation and supported testing and demonstrations of advanced manufacturing technologies at Hannover Messe Leon 2021."
+          "Supported the deployment and operation of an Industry 4.0 laboratory integrating robots, PLC-controlled systems, remote I/O, sensors and industrial safety hardware.",
+          "Configured and integrated automation components through industrial I/O for robotics and advanced-manufacturing applications.",
+          "Performed system testing, validation and troubleshooting across sensors, controls, connectivity and automation hardware.",
+          "Prepared technical documentation and operating information for integrated laboratory equipment and technology demonstrations.",
+          "Supported robotics and advanced-manufacturing demonstrations, including participation in Hannover Messe León 2021."
+        ],
+        "achievements": [
+          "Contributed to the deployment and launch of an Industry 4.0 laboratory integrating robotics, PLCs, remote I/O, sensing and industrial safety systems.",
+          "Prepared and supported live demonstrations of robotics and advanced-manufacturing technologies for Hannover Messe León 2021.",
+          "Helped establish technical documentation and operational procedures for integrated automation equipment used within the laboratory."
+        ],
+        "technologies": [
+          "Industrial Sensors",
+          "Remote I/O",
+          "Industrial Safety Systems",
+          "Industrial Networking",
+          "PLCs"
         ]
       }
     }
@@ -324,10 +365,10 @@
     {
       "slug": "master-computer-science-technology",
       "institution": "Universidad Carlos III de Madrid",
-      "qualification": "Master in Computer Science and Technology",
+      "qualification": "MSc in Computer Science and Technology",
       "startDate": "2026",
       "summary": [
-        "Current postgraduate studies in advanced computer science and computing technologies (60 ECTS)."
+        "Current postgraduate studies in advanced computer science and emerging technologies."
       ],
       "details": {
         "coursework": [
@@ -336,10 +377,9 @@
           "Digitization of Complex Systems Engineering",
           "Parallel & Distributed Systems",
           "Cybersecurity & Privacy",
-          "Robotics",
-          "3D Perception",
-          "Robot Simulators"
-        ]
+          "Robotics"
+        ],
+        "overview": "Master’s degree providing advanced academic and R&D training in computer science, with specialization across artificial intelligence, software engineering, and secure and distributed systems. The program combines theoretical foundations, scientific methods and applied research, with opportunities to collaborate with active research groups and connect research outcomes with industrial applications."
       }
     },
     {
@@ -349,10 +389,10 @@
       "startDate": "2024",
       "endDate": "2025",
       "summary": [
-        "University-specific degree (Titulo Propio), 60 credits and 1,500 hours."
+        "University-specific degree (Titulo Propio)"
       ],
       "details": {
-        "overview": "Focused on robotics, automation, artificial intelligence, planning, perception and robot interaction.",
+        "overview": "University-specific postgraduate program in robotics covering robot design, modeling, simulation, programming and control, with emphasis on artificial intelligence, motion planning, computer vision, SLAM, industrial automation and human-robot interaction.",
         "coursework": [
           "Robotics: Design and Modeling of Robots",
           "Intelligent Agents",
@@ -403,11 +443,6 @@
       "date": "May 2025"
     },
     {
-      "name": "EF SET English Certificate - C1 Advanced",
-      "issuer": "EF SET",
-      "date": "2024"
-    },
-    {
       "name": "Crash Course on Python",
       "issuer": "Google",
       "date": "2024"
@@ -419,18 +454,15 @@
       "skills": [
         "Python",
         "C++",
-        "JavaScript",
         "TypeScript",
-        "HTML",
-        "CSS",
+        "JavaScript",
         "React",
         "Next.js",
         "Node.js",
         "Express",
+        "REST APIs",
         "SQL",
-        "Git",
-        "GitHub",
-        "Linux",
+        "Git / GitHub",
         "Docker"
       ],
       "websiteSkills": [
@@ -438,129 +470,93 @@
         "C++",
         "TypeScript",
         "React",
-        "Next.js",
-        "Node.js",
-        "SQL",
-        "Linux",
         "Docker"
       ]
     },
     {
       "category": "AI & Voice Systems",
-      "skills": [
-        "OpenAI API",
-        "Whisper",
-        "Cekura",
-        "Retell",
-        "LiveKit",
-        "LLM Agents",
-        "Voice Agents",
-        "Prompt Engineering",
-        "Conversation Architecture",
-        "Dynamic Variables",
-        "Guardrails",
-        "Routing & Escalation",
-        "Structured QA",
-        "Regression Testing",
-        "Edge-Case Analysis",
-        "Failure-Mode Analysis"
-      ],
-      "websiteSkills": [
-        "OpenAI API",
-        "Whisper",
-        "Cekura",
-        "Retell",
-        "LiveKit",
-        "LLM Agents",
-        "Prompt Engineering",
-        "AI QA"
-      ]
+      "skills": [],
+      "websiteSkills": []
     },
     {
       "category": "Robotics & Simulation",
       "skills": [
         "ROS 2",
         "MoveIt 2",
-        "RViz 2",
+        "RViz",
         "Gazebo",
         "Webots",
         "RoboDK",
-        "Doosan",
+        "Doosan Robotics / DRL",
         "Universal Robots",
-        "DOBOT",
-        "MiR AMRs"
+        "MiR AMRs",
+        "Robot Programming",
+        "Motion Planning"
       ],
       "websiteSkills": [
         "ROS 2",
         "MoveIt 2",
-        "RViz 2",
-        "Gazebo",
         "RoboDK",
-        "Doosan",
+        "Doosan Robotics",
         "Universal Robots",
-        "MiR AMRs"
+        "Dobot Robotics",
+        "MiR AMR"
       ]
     },
     {
       "category": "Automation & Controls",
       "skills": [
-        "PLCs",
-        "Siemens",
-        "Allen Bradley",
-        "Mitsubishi",
-        "PLC Signals",
-        "I/O Mapping",
-        "Sensors",
-        "Actuators",
-        "Safety Devices",
-        "Safety Scanners",
+        "Siemens TIA Portal",
+        "Studio5000",
+        "PLC Integration",
+        "Industrial I/O",
+        "Sensors & Actuators",
+        "Safety Systems",
         "Control Panels",
-        "Calibration",
         "Production Troubleshooting"
       ],
       "websiteSkills": [
-        "PLCs",
-        "Siemens",
-        "Allen Bradley",
-        "Mitsubishi",
-        "I/O Mapping",
-        "Sensors",
-        "Safety Devices",
-        "Commissioning"
+        "Siemens TIA PortaL",
+        "Allen-Bradley Studio5000",
+        "PLC Integration",
+        "Industrial I/O",
+        "System Commissioning"
       ]
     },
     {
-      "category": "Industrial Vision",
+      "category": "Computer Vision & Industrial Perception",
       "skills": [
-        "Solomon",
+        "OpenCV",
         "Mech-Mind",
         "SICK",
         "Cognex",
-        "Vision-Guided Automation",
+        "SOLOMON AI",
+        "Vision-Guided Robotics",
         "Quality Inspection"
       ],
       "websiteSkills": [
-        "Solomon",
+        "OpenCV",
         "Mech-Mind",
-        "SICK",
+        "SOLOMON AI",
         "Cognex",
-        "Quality Inspection"
+        "Vision-Guided Robotics"
       ]
     },
     {
       "category": "Networking & Voice Infrastructure",
       "skills": [
-        "SIP/VoIP Troubleshooting",
+        "SIP / VoIP",
         "FusionPBX",
         "Network Diagnostics",
         "Linux Networking",
-        "TCP/IP Fundamentals"
+        "TCP/IP Fundamentals",
+        "REST APIs / Webhooks"
       ],
       "websiteSkills": [
-        "SIP/VoIP",
+        "SIP / VoIP",
         "FusionPBX",
-        "Network Diagnostics",
-        "Linux Networking"
+        "TCP/IP",
+        "Network Diagnostics"
       ]
     }
   ],
