@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 
 import { SiteHeader } from "@/components/layout/site-header";
+import { PageTransition } from "@/components/ui/page-transition";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 
 import "./globals.css";
@@ -21,7 +22,7 @@ export default function RootLayout({ children }: Readonly<{ children: ReactNode 
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" disableTransitionOnChange enableSystem>
           <SiteHeader />
-          <main className="mx-auto w-full max-w-[1450px] px-6 py-8 xl:px-8">{children}</main>
+          <main className="mx-auto w-full max-w-[1450px] px-6 py-8 xl:px-8"><PageTransition>{children}</PageTransition></main>
         </ThemeProvider>
       </body>
     </html>

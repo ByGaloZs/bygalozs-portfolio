@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 import { SkillTag } from "@/components/cv/skill-tag";
+import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import type { Project } from "@/types/portfolio";
 
 type SelectedProjectsProps = {
@@ -12,8 +13,9 @@ type SelectedProjectsProps = {
 export function SelectedProjects({ projects }: SelectedProjectsProps) {
   return (
     <div className="grid gap-4 lg:grid-cols-3">
-      {projects.map((project) => (
-        <article className="flex min-h-56 flex-col rounded-lg border border-slate-200 bg-white p-4" key={project.slug}>
+      {projects.map((project, index) => (
+        <ScrollReveal delay={index * 55} key={project.slug}>
+        <article className="flex min-h-56 flex-col rounded-lg border border-slate-200 bg-white p-4 transition-[border-color,transform,box-shadow] duration-200 hover:-translate-y-0.5 hover:border-[#0D6EFD] hover:shadow-sm">
           <h3 className="text-sm font-bold text-slate-900">{project.name}</h3>
           {project.technologies ? (
             <div className="mt-3 flex flex-wrap gap-1.5">
@@ -31,6 +33,7 @@ export function SelectedProjects({ projects }: SelectedProjectsProps) {
             View more <ArrowUpRight aria-hidden="true" className="size-3" />
           </Link>
         </article>
+        </ScrollReveal>
       ))}
     </div>
   );

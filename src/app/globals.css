@@ -52,6 +52,110 @@ body:has(.print-cv) .site-header {
   display: none;
 }
 
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-transition {
+  animation: page-enter 200ms ease-out both;
+}
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 240ms ease-out, transform 240ms ease-out;
+}
+
+.scroll-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cv-nav-link {
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.cv-nav-link::after {
+  position: absolute;
+  right: 0;
+  bottom: -13px;
+  left: 0;
+  height: 2px;
+  background: #0d6efd;
+  content: "";
+  opacity: 0;
+  transform: scaleX(0);
+  transition: opacity 180ms ease-out, transform 180ms ease-out;
+}
+
+.cv-nav-link.is-active {
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.cv-nav-link.is-active::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.site-nav-link {
+  position: relative;
+  padding-bottom: 3px;
+}
+
+.site-nav-link::after {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  background: #0d6efd;
+  content: "";
+  opacity: 0;
+  transform: scaleX(0);
+  transition: opacity 180ms ease-out, transform 180ms ease-out;
+}
+
+.site-nav-link.is-active {
+  color: #0d6efd;
+  font-weight: 600;
+}
+
+.site-nav-link.is-active::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .page-transition {
+    animation: none;
+  }
+
+  .scroll-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .cv-nav-link::after,
+  .site-nav-link::after {
+    transition: none;
+  }
+}
+
 @page {
   size: A4;
   margin: 10mm;
@@ -114,6 +218,22 @@ body:has(.print-cv) .site-header {
 
 .dark [class~="bg-[#0D6EFD]"] {
   background-color: #ea580c !important;
+}
+
+.dark [class~="border-[#0D6EFD]"] {
+  border-color: #fb923c !important;
+}
+
+.dark .cv-nav-link::after,
+.dark .site-nav-link::after {
+  background: #fb923c;
+}
+
+.dark .cv-nav-link.is-active,
+.dark .cv-nav-link:hover,
+.dark .site-nav-link.is-active,
+.dark .site-nav-link:hover {
+  color: #fb923c;
 }
 
 .dark [class~="ring-white"] {

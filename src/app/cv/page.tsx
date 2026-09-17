@@ -16,6 +16,7 @@ import {
 import Image from "next/image";
 
 import { CvSection } from "@/components/cv/cv-section";
+import { CvSectionNavigation } from "@/components/cv/cv-section-navigation";
 import { ExperienceTimeline } from "@/components/cv/experience-timeline";
 import { SelectedProjects } from "@/components/cv/selected-projects";
 import { SkillTag } from "@/components/cv/skill-tag";
@@ -33,16 +34,15 @@ export const metadata = { title: "CV" };
 const cvNavigation = [
   { href: "#about", label: "About" },
   { href: "#experience", label: "Experience" },
-  { href: "#projects", label: "Projects" },
-  { href: "#skills", label: "Skills" },
   { href: "#education", label: "Education" },
   { href: "#certifications", label: "Certifications" },
-  { href: "#languages", label: "Languages" },
+  { href: "#projects", label: "Projects" },
+  { href: "#skills", label: "Skills" },
 ];
 
 export default function CvPage() {
   return (
-    <div className="cv-page pb-5 text-slate-900">
+    <div className="cv-page pb-32 text-slate-900">
       <header className="flex flex-col gap-7 border-b border-slate-200 pb-6 md:flex-row md:items-start md:justify-between">
         <div className="flex items-start gap-4">
           <Image
@@ -87,13 +87,7 @@ export default function CvPage() {
         </div>
       </header>
 
-      <nav aria-label="CV sections" className="-mx-1 flex gap-x-6 overflow-x-auto border-b border-slate-200 px-1 py-3 text-sm text-slate-500 sm:gap-x-8">
-        {cvNavigation.map((item) => (
-          <a className="shrink-0 transition-colors hover:text-[#0D6EFD]" href={item.href} key={item.href}>
-            {item.label}
-          </a>
-        ))}
-      </nav>
+      <CvSectionNavigation items={cvNavigation} />
 
       <div className="cv-content mt-4 grid gap-x-9 gap-y-8 lg:grid-cols-[minmax(0,2.1fr)_minmax(280px,0.9fr)]">
         <div className="order-1 space-y-8 lg:order-none">
@@ -110,25 +104,25 @@ export default function CvPage() {
               <ExperienceTimeline experiences={experiences} />
             </CvSection>
 
-            <CvSection icon={Code2} id="skills" title="Technical Skills" className="scroll-mt-6" href="/skills">
-              <div className="grid gap-y-5 sm:grid-cols-2 xl:grid-cols-4 xl:divide-x xl:divide-slate-200">
-                {skillGroups.map((group) => (
-                  <div className="xl:px-4 xl:first:pl-0 xl:last:pr-0" key={group.category}>
-                    <h3 className="text-sm font-bold text-slate-800">{group.category}</h3>
-                    <div className="mt-3 flex flex-wrap gap-2">
-                    {(group.websiteSkills ?? group.skills).map((skill) => (
-                        <SkillTag key={skill} label={skill} />
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
+            <CvSection icon={Box} id="projects" title="Selected Projects" className="scroll-mt-6" href="/projects">
+              <SelectedProjects projects={projects.filter((project) => project.featured)} />
             </CvSection>
           </div>
         </div>
 
-        <CvSection icon={Box} id="projects" title="Selected Projects" className="order-2 scroll-mt-6 lg:order-none lg:col-span-2 lg:row-start-2" href="/projects">
-          <SelectedProjects projects={projects.filter((project) => project.featured)} />
+        <CvSection icon={Code2} id="skills" title="Technical Skills" className="order-2 scroll-mt-6 lg:order-none lg:col-span-2 lg:row-start-2" href="/skills">
+          <div className="grid gap-y-5 sm:grid-cols-2 xl:grid-cols-4 xl:divide-x xl:divide-slate-200">
+            {skillGroups.map((group) => (
+              <div className="xl:px-4 xl:first:pl-0 xl:last:pr-0" key={group.category}>
+                <h3 className="text-sm font-bold text-slate-800">{group.category}</h3>
+                <div className="mt-3 flex flex-wrap gap-2">
+                {(group.websiteSkills ?? group.skills).map((skill) => (
+                    <SkillTag key={skill} label={skill} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </CvSection>
 
         <aside className="order-3 space-y-7 border-t border-slate-200 pt-7 lg:order-none lg:col-start-2 lg:row-start-1 lg:border-l lg:border-t-0 lg:pl-8 lg:pt-0">
@@ -195,7 +189,7 @@ export default function CvPage() {
             </div>
           </CvSection>
 
-          <CvSection icon={Globe2} id="languages" title="Languages" className="scroll-mt-6" href="/languages">
+          <CvSection icon={Globe2} id="languages" title="Languages" className="scroll-mt-6">
             <div className="space-y-4">
               {languages.map((language) => (
                 <div key={language.name}>

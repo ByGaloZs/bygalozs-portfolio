@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import { ScrollReveal } from "@/components/ui/scroll-reveal";
 import type { Experience } from "@/types/portfolio";
 
 type ExperienceTimelineProps = {
@@ -9,8 +10,9 @@ type ExperienceTimelineProps = {
 export function ExperienceTimeline({ experiences }: ExperienceTimelineProps) {
   return (
     <div className="space-y-7">
-      {experiences.map((experience) => (
-        <article className="grid grid-cols-[90px_22px_minmax(0,1fr)] gap-x-3 sm:grid-cols-[116px_24px_minmax(0,1fr)] sm:gap-x-4" key={experience.slug}>
+      {experiences.map((experience, index) => (
+        <ScrollReveal delay={index * 45} key={experience.slug}>
+        <article className="grid grid-cols-[90px_22px_minmax(0,1fr)] gap-x-3 sm:grid-cols-[116px_24px_minmax(0,1fr)] sm:gap-x-4">
           <div className="pt-0.5 text-xs leading-5 text-slate-500 sm:text-[13px]">
             {experience.startDate ? (
               <>
@@ -38,6 +40,7 @@ export function ExperienceTimeline({ experiences }: ExperienceTimelineProps) {
             </Link>
           </div>
         </article>
+        </ScrollReveal>
       ))}
     </div>
   );
