@@ -255,7 +255,7 @@
         "Screwdriving",
         "Polishing"
       ],
-      "featured": true,
+      "featured": false,
       "summary": [
         "Programmed and commissioned 10+ industrial and collaborative robots across manufacturing applications and customer deployments."
       ],
@@ -475,8 +475,23 @@
     },
     {
       "category": "AI & Voice Systems",
-      "skills": [],
-      "websiteSkills": []
+      "skills": [
+        "Conversational AI",
+        "Voice AI Agents",
+        "LLM Agent Architecture",
+        "Conversation Flow Design",
+        "Prompt Engineering",
+        "LLM Guardrails",
+        "Structured Data Extraction",
+        "AI Evaluation & QA"
+      ],
+      "websiteSkills": [
+        "LLM Agent Architecture",
+        "Conversation Flow Design",
+        "Prompt Engineering",
+        "LLM Guardrails",
+        "AI Evaluation & QA"
+      ]
     },
     {
       "category": "Robotics & Simulation",
