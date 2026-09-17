@@ -16,11 +16,9 @@ import {
 import Image from "next/image";
 
 import { CvSection } from "@/components/cv/cv-section";
-import { CvSectionNavigation } from "@/components/cv/cv-section-navigation";
 import { ExperienceTimeline } from "@/components/cv/experience-timeline";
 import { SelectedProjects } from "@/components/cv/selected-projects";
 import { SkillTag } from "@/components/cv/skill-tag";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { certifications } from "@/data/certifications";
 import { education } from "@/data/education";
 import { experiences } from "@/data/experience";
@@ -30,15 +28,6 @@ import { projects } from "@/data/projects";
 import { skillGroups } from "@/data/skills";
 
 export const metadata = { title: "CV" };
-
-const cvNavigation = [
-  { href: "#about", label: "About" },
-  { href: "#experience", label: "Experience" },
-  { href: "#education", label: "Education" },
-  { href: "#certifications", label: "Certifications" },
-  { href: "#projects", label: "Projects" },
-  { href: "#skills", label: "Skills" },
-];
 
 export default function CvPage() {
   return (
@@ -78,16 +67,13 @@ export default function CvPage() {
             </div>
           </div>
         </div>
-        <div className="flex shrink-0 items-start gap-4 md:justify-end">
-          <ThemeToggle />
+        <div className="flex shrink-0 items-start md:justify-end">
           <a className="inline-flex items-center gap-2 rounded-lg bg-[#0D6EFD] px-4 py-2.5 text-sm font-medium text-white shadow-sm" download href="/cv/mario-padilla-franco-cv.pdf">
             <Download aria-hidden="true" className="size-4" />
             Download CV
           </a>
         </div>
       </header>
-
-      <CvSectionNavigation items={cvNavigation} />
 
       <div className="cv-content mt-4 grid gap-x-9 gap-y-8 lg:grid-cols-[minmax(0,2.1fr)_minmax(280px,0.9fr)]">
         <div className="order-1 space-y-8 lg:order-none">
