@@ -4,13 +4,13 @@
     "githubUrl": "https://github.com/ByGaloZs",
     "linkedInUrl": "https://www.linkedin.com/in/mario-padilla-7b4988230",
     "headline": "Software Engineer focused on AI & Robotics",
-    "pdfSummary": "Engineer with professional experience across software, artificial intelligence, robotics and industrial automation. Built, integrated and supported production systems ranging from conversational AI platforms to robotic cells and industrial automation, with hands-on experience in Python, C++, Linux, TypeScript/JavaScript, QA, commissioning and multidisciplinary troubleshooting.",
+    "pdfSummary": "Software Engineer focused on AI and robotics, with professional experience building, evaluating, integrating and deploying production systems in conversational AI, robotics and industrial automation. Hands-on experience with Python, C++, TypeScript/JavaScript, Linux, ROS 2, Docker, APIs, AI evaluation and QA, system integration, commissioning, networking and multidisciplinary troubleshooting.",
     "location": "Madrid, Spain",
     "website": "bygalozs.dev",
     "availability": "Open to opportunities",
     "email": "mariopadillafranco97@outlook.com",
     "professionalSummary": [
-      "Software engineer with experience delivering conversational AI, robotics and industrial automation systems from implementation and testing through commissioning and production support."
+      "Software engineer focused on AI and robotics, experienced in building, evaluating and deploying conversational AI systems, developer tooling, robotic applications and industrial automation solutions across the full engineering lifecycle."
     ]
   },
   "experiences": [
@@ -21,42 +21,46 @@
       "location": "Remote",
       "startDate": "Feb 2026",
       "summary": [
-        "Design and validate production voice and chat AI agents, translating operational requirements into reliable conversation logic and repeatable QA workflows.",
-        "Build internal tools and reusable methods for agent testing, evidence capture and conversational-agent quality assurance."
+        "Design, build and maintain production voice and chat AI agents, translating business requirements into conversational flows, prompts, variables, guardrails and knowledge behavior.",
+        "Define and execute agent evaluation and QA workflows, including stress testing, reusable test methods, evidence capture and internal validation tools.",
+        "Support production deployments and integrations end to end, troubleshooting SIP/VoIP, APIs, runtime logic and platform issues while improving reliability and documenting technical solutions."
       ],
       "details": {
-        "overview": "Design, implement and validate production conversational AI systems for voice and chat applications.",
+        "overview": "Design, implement and validate production conversational AI systems for voice and chat applications, combining agent architecture, evaluation, software tooling and production integrations.",
         "responsibilities": [
-          "Design and maintain global prompts, conversation architecture, node-based flows, dynamic variables, guardrails, routing, escalation logic and response-control rules.",
-          "Build structured flows for qualification, follow-up, objection handling, callbacks, transfers, identity handling and failure recovery.",
-          "Define fallback behavior and conversation-state rules for changing inputs, incomplete information, silence and objections.",
-          "Optimize voice-agent behavior for TTS delivery, including pacing, pauses, pronunciation, punctuation handling and natural Mexican Spanish phrasing.",
-          "Run structured QA with test cases, edge-case coverage, stress scenarios, regression checks, call reviews and failure-mode analysis.",
-          "Use Cekura for conversational-agent testing, including personality-based scenarios and reviewed success/failure evidence.",
-          "Work with OpenAI API, Retell, LiveKit and Whisper across conversational AI development, testing and support workflows.",
-          "Support SIP/VoIP troubleshooting and provider coordination by reviewing call behavior, logs, trunk directionality and platform configuration."
+          "Design and implement conversational AI agents using modular flows, prompts, conditional logic, variables, knowledge bases and behavioral guardrails.",
+          "Translate business requirements, scripts and operational rules into reliable conversational architectures for production voice and chat applications",
+          "Develop evaluation strategies and structured QA workflows for conversational agents, including functional testing, stress testing, edge cases and regression validation.",
+          "Build internal tools and reusable utilities for agent testing, configuration validation, evidence capture and quality-assurance workflows.",
+          "Analyze conversation results and production behavior to identify failures, improve agent reliability and refine conversational logic.",
+          "Integrate and troubleshoot APIs, webhooks, dynamic variables and external services used by conversational AI applications.",
+          "Support voice infrastructure and telephony integrations, diagnosing SIP/VoIP, trunking, call-routing and connectivity issues across production deployments.",
+          "Create technical documentation, testing methodologies and reusable engineering practices to standardize agent development, evaluation and troubleshooting."
         ],
         "achievements": [
-          "Built an internal web-based agent tester with Next.js, React, TypeScript, Tailwind and LiveKit for configuring variables, making web calls and exporting QA evidence.",
-          "Created validation for agent IDs and dynamic variables, including required-field, unknown-field and type checks.",
-          "Created the Conversational Agent Engineering (CAE) framework for reusable agent design, testing and documentation."
+          "Built an internal agent-testing tool to validate web voice calls, dynamic variables, call behavior and QA evidence in a repeatable workflow.",
+          "Developed reusable conversational-agent evaluation methods, metrics and stress-test frameworks to standardize QA across multiple agents and use cases.",
+          "Built and validated 10+ production-ready conversational AI agents across multiple client use cases, from initial requirements through testing and deployment."
         ],
         "technologies": [
+          "Python",
+          "Github",
           "OpenAI API",
-          "Retell",
+          "Gemini API",
+          "Anthropic Claude",
+          "REST APIs / Webhooks",
+          "SIP / VoIP",
           "LiveKit",
-          "Whisper",
-          "Cekura",
           "FusionPBX",
-          "Next.js",
-          "React",
-          "TypeScript"
+          "Retell",
+          "Cekura"
         ],
         "pdfHighlights": [
-          "Design and maintain production voice and chat AI agents with prompt architecture, node-based flows, dynamic variables, guardrails, routing and escalation logic.",
-          "Run structured QA using test cases, edge cases, stress scenarios, regression checks, call reviews and failure-mode analysis; use Cekura for test evidence.",
-          "Built an internal Next.js/React agent tester for configuring dynamic variables, making web calls and exporting QA evidence.",
-          "Support voice infrastructure troubleshooting across SIP/VoIP providers, FusionPBX, logs and platform configuration."
+          "Design and deploy production voice and chat AI agents, translating business requirements into conversational flows, prompts, variables, guardrails and knowledge behavior.",
+          "Built and validated 10+ production-ready conversational AI agents across multiple client use cases, from initial requirements through testing and deployment.",
+          "Define and execute structured AI evaluation and QA workflows, including stress testing, edge cases, regression validation and evidence capture.",
+          "Develop internal tools and reusable testing methods for agent validation, dynamic-variable checks, call testing and quality-assurance workflows.",
+          "Support production integrations and troubleshoot APIs, webhooks, SIP/VoIP, call routing and runtime issues across voice-AI deployments."
         ]
       }
     },
@@ -68,50 +72,54 @@
       "startDate": "May 2023",
       "endDate": "Jan 2026",
       "summary": [
-        "Integrated and commissioned collaborative robots, AMRs, PLC-controlled systems and industrial vision applications in live production environments.",
-        "Programmed and commissioned 10+ industrial and collaborative robots while troubleshooting robotics, controls, Python/C++, Linux and networking issues."
+        "Integrated and commissioned industrial and collaborative robotic systems, AMRs, PLC-controlled equipment, vision systems and automated production cells for manufacturing customers.",
+        "Programmed and commissioned 10+ industrial and collaborative robots for applications including palletizing, welding, pick-and-place, screwdriving, polishing and quality inspection.",
+        "Troubleshot robot motion, PLC signals and I/O, sensors, tooling, vision, safety systems, application logic and software issues while providing remote and on-site production support."
       ],
       "details": {
-        "overview": "Integrated, programmed, commissioned and supported software-driven industrial automation systems in live production environments.",
+        "overview": "Integrated, programmed and commissioned robotic and industrial automation systems for manufacturing applications, covering robot programming, machine vision, PLC/I/O integration, AMRs, production troubleshooting and customer support.",
         "responsibilities": [
-          "Integrated and supported collaborative robots, AMRs, PLC-controlled systems, industrial vision solutions and integrated production cells.",
-          "Programmed robotic applications for palletizing, pick-and-place, welding, screwdriving, polishing and quality inspection.",
-          "Troubleshot robot motion, PLC signals and I/O mapping, sensors, actuators, vacuum/tooling behavior, vision results, safety devices and application logic.",
-          "Debugged and maintained Python and C++ code used in automation workflows, data handling, equipment behavior and system integration.",
-          "Managed Linux-based automation environments, including configuration, runtime support, log analysis and networking troubleshooting.",
-          "Supported PLC and robot commissioning during installation, validation, start-up and production ramp-up.",
-          "Created operator instructions, troubleshooting guides and technical documentation; provided remote and on-site production support."
+          "Program and commission industrial and collaborative robots for palletizing, welding, pick-and-place, screwdriving, polishing and quality-inspection applications.",
+          "Configure robot tools, coordinate frames, motion sequences, I/O and application logic for automated manufacturing cells.",
+          "Integrate robots with PLC-controlled equipment, sensors, actuators, safety devices and external automation systems.",
+          "Use RoboDK, ROS 2 and Webots for robot simulation, trajectory validation, offline testing and development of robotic applications before deployment on physical systems.",
+          "Implement and troubleshoot industrial vision systems for robot guidance, inspection and part-detection applications.",
+          "Integrate and support autonomous mobile robots for material-handling and intralogistics applications.",
+          "Perform on-site commissioning, calibration, testing and production start-up for customer automation systems.",
+          "Diagnose robot motion, PLC signals, I/O, networking, sensors, tooling, vision and software issues during integration and production support.",
+          "Prepare technical documentation, operator instructions and troubleshooting guides while providing remote and on-site support to manufacturing customers."
         ],
-        "projects": [
-          "Toyota",
-          "Nissan",
-          "Toyoda Gosei",
-          "Beiersdorf/Nivea",
-          "Panita Foods",
-          "Valeo",
-          "Schneider Electric"
-        ],
+        "projects": [],
         "technologies": [
-          "Doosan",
+          "Doosan Robotics",
           "Universal Robots",
-          "DOBOT",
+          "Dobot Robotics",
           "MiR AMRs",
-          "Siemens",
-          "Allen Bradley",
-          "Mitsubishi",
-          "Solomon",
-          "Mech-Mind",
-          "SICK",
+          "Mech-Mind Robotics",
+          "ROS 2",
+          "RoboDK",
+          "Webots",
+          "Siemens TIA Portal",
+          "SOLOMON 3D",
           "Cognex",
+          "SICK",
+          "OpenCV",
           "Python",
           "C++",
-          "Linux"
+          "Industrial Ethernet / TCP-IP"
         ],
         "pdfHighlights": [
-          "Integrated and commissioned collaborative robots, AMRs, PLC-controlled systems, industrial vision solutions and production cells.",
-          "Programmed and commissioned 10+ industrial and collaborative robots for palletizing, welding, pick-and-place, screwdriving, polishing and quality inspection.",
-          "Troubleshot robot motion, PLC signals and I/O, sensors, tooling, vision, safety devices, application logic, Python/C++ code, Linux and networking.",
-          "Provided remote and on-site support, technical documentation and production incident resolution for customer deployments."
+          "Integrated and commissioned industrial and collaborative robotic systems, AMRs, PLC-controlled equipment, machine vision and automated production cells for manufacturing applications.",
+          "Programmed and commissioned 10+ industrial and collaborative robots for palletizing, welding, pick-and-place, screwdriving, polishing and quality-inspection applications.",
+          "Developed and tested robotic applications in C++ and Python, using simulation, trajectory validation and offline testing before deployment on physical systems.",
+          "Used robot simulation and robotics software for trajectory validation, offline testing and application development before deployment on physical systems.",
+          "Implemented and troubleshot machine-vision, robotic-perception and mobile-robot systems for inspection, guidance and intralogistics applications.",
+          "Performed on-site commissioning, production start-up and multidisciplinary troubleshooting across robot motion, PLC/I/O, sensors, tooling, networking, safety and application logic."
+        ],
+        "achievements": [
+          "Programmed and commissioned 10+ industrial and collaborative robots across production projects for customers including Toyota, Nissan, Toyoda Gosei, Beiersdorf/Nivea, Panita Foods, Valeo and Schneider Electric.",
+          "Developed and deployed a production palletizing application with configurable pallet patterns, frame-based positioning, vacuum handling, recovery logic and safe motion sequences.",
+          "Applied RoboDK, ROS 2 and Webots for simulation, trajectory validation and offline testing, validating robotic applications before deployment on physical systems."
         ]
       }
     },
