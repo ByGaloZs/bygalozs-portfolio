@@ -138,13 +138,12 @@ body:has(.print-cv) .site-header {
     max-width: none;
   }
 
-  .print-page {
-    break-after: page;
+  .page-transition {
+    animation: none;
+    opacity: 1;
+    transform: none;
   }
 
-  .print-page-two {
-    break-after: auto;
-  }
 }
 
 /* Keep the layout intact while mapping the existing neutral and blue tokens to the dark palette. */
@@ -297,14 +296,30 @@ body:has(.print-cv) .site-header {
 }
 
 .home-portrait-shape {
+  position: relative;
   aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 48% 52% 45% 55% / 42% 52% 48% 58%;
+  isolation: isolate;
+}
+
+.home-portrait-shape::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #1a2aff 5%, #0d6efd 52%, #0b4cc9 100%);
+  box-shadow: 0 18px 35px rgb(13 110 253 / 20%);
+  content: "";
 }
 
 .home-portrait {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-  object-position: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 84%;
+  height: auto;
+  transform: translateX(-50%);
 }
 
 .home-work-label {
@@ -388,6 +403,7 @@ body:has(.print-cv) .site-header {
 .dark .home-secondary-button { border-color: #34343d; background: rgb(24 24 27 / 45%); color: #f4f4f5; }
 .dark .home-secondary-button:hover { border-color: #ff7440; }
 .dark .home-social:hover { color: #ff7440; }
+.dark .home-portrait-shape::before { background: linear-gradient(135deg, #ffac00 5%, #ff6718 52%, #e8430b 100%); box-shadow: 0 18px 35px rgb(255 79 22 / 20%); }
 .dark .home-work-label::before, .dark .home-work-label::after { background: #3d3d46; }
 .dark .home-work-card { border-color: #36363f; background: rgb(24 24 27 / 58%); box-shadow: none; }
 .dark .home-work-card:hover { border-color: #ff7440; box-shadow: 0 14px 30px rgb(255 79 22 / 10%); }

@@ -1,10 +1,12 @@
 import { spawn, spawnSync } from "node:child_process";
-import { existsSync } from "node:fs";
+import { existsSync, mkdtempSync, rmSync } from "node:fs";
 import { resolve } from "node:path";
+import { tmpdir } from "node:os";
 
 const root = process.cwd();
 const port = String(3200 + (process.pid % 1000));
 const output = resolve(root, "public/cv/mario-padilla-franco-cv.pdf");
+const chromeProfile = mkdtempSync(resolve(tmpdir(), "bygalozs-chrome-"));
 const chrome = [process.env.CHROME_BIN, "/usr/bin/google-chrome", "/usr/bin/google-chrome-stable", "/usr/bin/chromium", "/usr/bin/chromium-browser"]
   .filter(Boolean)
   .find((candidate) => existsSync(candidate));
@@ -31,8 +33,9 @@ async function waitForServer() {
 
 try {
   await waitForServer();
-  const result = spawnSync(chrome, ["--headless", "--disable-gpu", "--no-sandbox", "--no-pdf-header-footer", `--print-to-pdf=${output}`, `http://127.0.0.1:${port}/cv/print`], { stdio: "inherit" });
+  const result = spawnSync(chrome, ["--headless", "--disable-gpu", "--no-sandbox", "--no-pdf-header-footer", `--user-data-dir=${chromeProfile}`, `--print-to-pdf=${output}`, `http://127.0.0.1:${port}/cv/print`], { stdio: "inherit" });
   if (result.status !== 0) process.exitCode = result.status ?? 1;
 } finally {
   server.kill("SIGTERM");
+  rmSync(chromeProfile, { force: true, recursive: true });
 }

@@ -41,8 +41,7 @@ export default function HomePage() {
           </div>
           <div className="home-portrait-wrap relative mx-auto w-full max-w-[490px] lg:max-w-none">
             <div className="home-portrait-shape">
-              <Image alt={`Portrait of ${profile.name}`} className="home-portrait dark:hidden" height={1241} priority src="/images/profile-hero.png" width={1267} />
-              <Image alt={`Portrait of ${profile.name}`} className="home-portrait hidden dark:block" height={1254} priority src="/images/profile-hero-dark.png" width={1254} />
+              <Image alt={`Portrait of ${profile.name}`} className="home-portrait" height={1379} priority src="/images/profile-subject.png" width={1141} />
             </div>
           </div>
         </div>
